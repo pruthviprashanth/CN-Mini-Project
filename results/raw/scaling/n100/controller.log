@@ -1,0 +1,669 @@
+loading app /home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app /home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py of ChatSDNController
+listening for chat events on /tmp/chat_sdn_events.sock
+chat controller: mode=sdn monitor=True policy=/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/policy.json events=/tmp/chat_sdn_events.sock
+instantiating app ryu.controller.ofp_handler of OFPHandler
+(57314) wsgi starting up on http://0.0.0.0:8080
+(57314) accepted ('127.0.0.1', 47474)
+127.0.0.1 - - [25/Oct/2026 20:31:07] "GET /health HTTP/1.1" 200 194 0.001172
+switch 0000000000000001 connected
+switch 0000000000000002 connected
+(57314) accepted ('127.0.0.1', 47486)
+127.0.0.1 - - [25/Oct/2026 20:31:08] "GET /health HTTP/1.1" 200 205 0.000469
+(57314) accepted ('127.0.0.1', 47500)
+[MODE] mode=static monitor=False (all flows flushed)
+127.0.0.1 - - [25/Oct/2026 20:31:08] "POST /mode HTTP/1.1" 200 180 0.000673
+[NEW] ?@10.0.0.12:53930 connection classified NORMAL
+[NEW] ?@10.0.0.13:54906 connection classified NORMAL
+[NEW] ?@10.0.0.11:37936 connection classified NORMAL
+[NEW] ?@10.0.0.12:53942 connection classified NORMAL
+[NEW] ?@10.0.0.13:54922 connection classified NORMAL
+[NEW] ?@10.0.0.14:60948 connection classified NORMAL
+[NEW] ?@10.0.0.11:37950 connection classified NORMAL
+[NEW] ?@10.0.0.14:60958 connection classified NORMAL
+[NEW] ?@10.0.0.12:53956 connection classified NORMAL
+[NEW] ?@10.0.0.11:37964 connection classified NORMAL
+[NEW] ?@10.0.0.13:54936 connection classified NORMAL
+[NEW] ?@10.0.0.11:37966 connection classified NORMAL
+[NEW] ?@10.0.0.12:53966 connection classified NORMAL
+[NEW] ?@10.0.0.14:60974 connection classified NORMAL
+[NEW] ?@10.0.0.13:54938 connection classified NORMAL
+[NEW] ?@10.0.0.14:60990 connection classified NORMAL
+[NEW] ?@10.0.0.12:53976 connection classified NORMAL
+[NEW] ?@10.0.0.13:54946 connection classified NORMAL
+[NEW] ?@10.0.0.11:37972 connection classified NORMAL
+[NEW] ?@10.0.0.12:53978 connection classified NORMAL
+[NEW] ?@10.0.0.14:32774 connection classified NORMAL
+[NEW] ?@10.0.0.13:54952 connection classified NORMAL
+[NEW] ?@10.0.0.11:37986 connection classified NORMAL
+[NEW] ?@10.0.0.14:32780 connection classified NORMAL
+[NEW] ?@10.0.0.11:38000 connection classified NORMAL
+[NEW] ?@10.0.0.13:54954 connection classified NORMAL
+[NEW] ?@10.0.0.12:53990 connection classified NORMAL
+[NEW] ?@10.0.0.14:32796 connection classified NORMAL
+[NEW] ?@10.0.0.12:53998 connection classified NORMAL
+[NEW] ?@10.0.0.13:54962 connection classified NORMAL
+[NEW] ?@10.0.0.11:38012 connection classified NORMAL
+[NEW] ?@10.0.0.12:54002 connection classified NORMAL
+[NEW] ?@10.0.0.14:32810 connection classified NORMAL
+[NEW] ?@10.0.0.13:54964 connection classified NORMAL
+[NEW] ?@10.0.0.11:38018 connection classified NORMAL
+[NEW] ?@10.0.0.12:54006 connection classified NORMAL
+[NEW] ?@10.0.0.14:32824 connection classified NORMAL
+[NEW] ?@10.0.0.11:38026 connection classified NORMAL
+[NEW] ?@10.0.0.13:54968 connection classified NORMAL
+[NEW] ?@10.0.0.14:32826 connection classified NORMAL
+[NEW] ?@10.0.0.12:54020 connection classified NORMAL
+[NEW] ?@10.0.0.13:54978 connection classified NORMAL
+[NEW] ?@10.0.0.11:38028 connection classified NORMAL
+[NEW] ?@10.0.0.12:54030 connection classified NORMAL
+[NEW] ?@10.0.0.13:54992 connection classified NORMAL
+[NEW] ?@10.0.0.11:38034 connection classified NORMAL
+[NEW] ?@10.0.0.14:32840 connection classified NORMAL
+[NEW] ?@10.0.0.12:54042 connection classified NORMAL
+[NEW] ?@10.0.0.14:32844 connection classified NORMAL
+[NEW] ?@10.0.0.13:54998 connection classified NORMAL
+[NEW] ?@10.0.0.11:38040 connection classified NORMAL
+[NEW] ?@10.0.0.14:32854 connection classified NORMAL
+[NEW] ?@10.0.0.12:54048 connection classified NORMAL
+[NEW] ?@10.0.0.13:55002 connection classified NORMAL
+[NEW] ?@10.0.0.11:38046 connection classified NORMAL
+[NEW] ?@10.0.0.14:32860 connection classified NORMAL
+[NEW] ?@10.0.0.12:54062 connection classified NORMAL
+[NEW] ?@10.0.0.11:38052 connection classified NORMAL
+[NEW] ?@10.0.0.13:55012 connection classified NORMAL
+[NEW] ?@10.0.0.14:32866 connection classified NORMAL
+[NEW] ?@10.0.0.12:54066 connection classified NORMAL
+[NEW] ?@10.0.0.11:38056 connection classified NORMAL
+[NEW] ?@10.0.0.13:55014 connection classified NORMAL
+[NEW] ?@10.0.0.12:54080 connection classified NORMAL
+[NEW] ?@10.0.0.14:32874 connection classified NORMAL
+[NEW] ?@10.0.0.11:38064 connection classified NORMAL
+[NEW] ?@10.0.0.13:55016 connection classified NORMAL
+[NEW] ?@10.0.0.12:54088 connection classified NORMAL
+[NEW] ?@10.0.0.14:32884 connection classified NORMAL
+[NEW] ?@10.0.0.13:55028 connection classified NORMAL
+[NEW] ?@10.0.0.11:38076 connection classified NORMAL
+[NEW] ?@10.0.0.14:32896 connection classified NORMAL
+[NEW] ?@10.0.0.12:54104 connection classified NORMAL
+[NEW] ?@10.0.0.11:38088 connection classified NORMAL
+[NEW] ?@10.0.0.13:55044 connection classified NORMAL
+[NEW] ?@10.0.0.14:32902 connection classified NORMAL
+[NEW] ?@10.0.0.12:54112 connection classified NORMAL
+[NEW] ?@10.0.0.11:38100 connection classified NORMAL
+[NEW] ?@10.0.0.13:55056 connection classified NORMAL
+[NEW] ?@10.0.0.12:54124 connection classified NORMAL
+[NEW] ?@10.0.0.14:32908 connection classified NORMAL
+[NEW] ?@10.0.0.11:38102 connection classified NORMAL
+[NEW] ?@10.0.0.13:55062 connection classified NORMAL
+[NEW] ?@10.0.0.14:32920 connection classified NORMAL
+[NEW] ?@10.0.0.12:54136 connection classified NORMAL
+[NEW] ?@10.0.0.13:55066 connection classified NORMAL
+[NEW] ?@10.0.0.11:38118 connection classified NORMAL
+[NEW] ?@10.0.0.12:54140 connection classified NORMAL
+[NEW] ?@10.0.0.14:32924 connection classified NORMAL
+[NEW] ?@10.0.0.13:55078 connection classified NORMAL
+[NEW] ?@10.0.0.11:38128 connection classified NORMAL
+[NEW] ?@10.0.0.12:54154 connection classified NORMAL
+[NEW] ?@10.0.0.14:32936 connection classified NORMAL
+[NEW] ?@10.0.0.11:38138 connection classified NORMAL
+[NEW] ?@10.0.0.13:55088 connection classified NORMAL
+[NEW] ?@10.0.0.14:32940 connection classified NORMAL
+[NEW] ?@10.0.0.12:54168 connection classified NORMAL
+[NEW] ?@10.0.0.11:38142 connection classified NORMAL
+[NEW] ?@10.0.0.13:55094 connection classified NORMAL
+[NEW] ?@10.0.0.14:32956 connection classified NORMAL
+(57314) accepted ('127.0.0.1', 38824)
+127.0.0.1 - - [25/Oct/2026 20:31:47] "GET /chat/state HTTP/1.1" 200 142488 0.005656
+(57314) accepted ('127.0.0.1', 38834)
+[MODE] mode=static monitor=False (all flows flushed)
+127.0.0.1 - - [25/Oct/2026 20:31:47] "POST /mode HTTP/1.1" 200 180 0.001997
+bad event b'{"event": "leave", "user": "user_41", "room": "load_4", "client_ip": "10.0.0.12", "client_port": 54080, "ts": 1792940507.1579752}'
+Traceback (most recent call last):
+  File "/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py", line 374, in _event_listener
+    self.handle_event(json.loads(data.decode("utf-8")))
+  File "/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py", line 228, in handle_event
+    self.reapply(conn, "%s%s" % (kind, " " + room if room else ""))
+  File "/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py", line 198, in reapply
+    for (dpid, _direction), (match, out_port) in conn.flows.items():
+RuntimeError: dictionary changed size during iteration
+[CLASS] user_41@10.0.0.12:54080 None -> NORMAL (logout)
+[CLASS] vip_4@10.0.0.11:37972 None -> NORMAL (leave general)
+[CLASS] user_58@10.0.0.13:54964 None -> NORMAL (leave general)
+[CLASS] user_86@10.0.0.14:32844 None -> NORMAL (leave general)
+[CLASS] user_64@10.0.0.13:55012 None -> NORMAL (leave general)
+[CLASS] user_40@10.0.0.12:54066 None -> NORMAL (leave general)
+[CLASS] user_31@10.0.0.12:53990 None -> NORMAL (leave general)
+[CLASS] user_87@10.0.0.14:32854 None -> NORMAL (leave general)
+[CLASS] user_63@10.0.0.13:55002 None -> NORMAL (leave general)
+[CLASS] user_20@10.0.0.11:38102 None -> NORMAL (leave general)
+[CLASS] vip_19@10.0.0.11:38100 None -> NORMAL (leave general)
+[CLASS] vip_18@10.0.0.11:38088 None -> NORMAL (leave general)
+[CLASS] vip_7@10.0.0.11:38012 None -> NORMAL (leave general)
+[CLASS] user_35@10.0.0.12:54020 None -> NORMAL (leave general)
+[CLASS] user_73@10.0.0.13:55088 None -> NORMAL (leave general)
+[CLASS] user_88@10.0.0.14:32860 None -> NORMAL (leave general)
+[CLASS] user_39@10.0.0.12:54062 None -> NORMAL (leave general)
+[CLASS] vip_8@10.0.0.11:38018 None -> NORMAL (leave general)
+[CLASS] user_55@10.0.0.13:54952 None -> NORMAL (leave general)
+[CLASS] user_25@10.0.0.12:53930 None -> NORMAL (leave general)
+[CLASS] user_57@10.0.0.13:54962 None -> NORMAL (leave general)
+[CLASS] user_90@10.0.0.14:32874 None -> NORMAL (leave general)
+[CLASS] user_56@10.0.0.13:54954 None -> NORMAL (leave general)
+[CLASS] user_43@10.0.0.12:54104 None -> NORMAL (leave general)
+[CLASS] user_47@10.0.0.12:54140 None -> NORMAL (leave general)
+[CLASS] user_27@10.0.0.12:53956 None -> NORMAL (leave general)
+[CLASS] user_92@10.0.0.14:32896 None -> NORMAL (leave general)
+[CLASS] user_82@10.0.0.14:32810 None -> NORMAL (leave general)
+[CLASS] user_22@10.0.0.11:38128 None -> NORMAL (leave general)
+[CLASS] user_51@10.0.0.13:54922 None -> NORMAL (leave general)
+[CLASS] user_36@10.0.0.12:54030 None -> NORMAL (leave general)
+[CLASS] vip_3@10.0.0.11:37966 None -> NORMAL (leave general)
+[CLASS] vip_15@10.0.0.11:38056 None -> NORMAL (leave general)
+[CLASS] vip_11@10.0.0.11:38034 None -> NORMAL (leave general)
+[CLASS] user_76@10.0.0.14:60958 None -> NORMAL (leave general)
+[CLASS] vip_5@10.0.0.11:37986 None -> NORMAL (leave general)
+[CLASS] user_80@10.0.0.14:32780 None -> NORMAL (leave general)
+[CLASS] user_28@10.0.0.12:53966 None -> NORMAL (leave general)
+[CLASS] user_44@10.0.0.12:54112 None -> NORMAL (leave general)
+[CLASS] vip_6@10.0.0.11:38000 None -> NORMAL (leave general)
+[NEW] ?@10.0.0.11:54756 connection classified NORMAL
+[NEW] ?@10.0.0.11:54760 connection classified NORMAL
+[NEW] ?@10.0.0.11:54776 connection classified NORMAL
+[NEW] ?@10.0.0.13:49686 connection classified NORMAL
+[NEW] ?@10.0.0.11:54790 connection classified NORMAL
+[NEW] ?@10.0.0.13:49702 connection classified NORMAL
+[NEW] ?@10.0.0.11:54800 connection classified NORMAL
+[NEW] ?@10.0.0.13:49706 connection classified NORMAL
+[NEW] ?@10.0.0.14:58970 connection classified NORMAL
+[NEW] ?@10.0.0.12:42246 connection classified NORMAL
+[NEW] ?@10.0.0.14:58986 connection classified NORMAL
+[NEW] ?@10.0.0.11:54808 connection classified NORMAL
+[NEW] ?@10.0.0.12:42248 connection classified NORMAL
+[NEW] ?@10.0.0.13:49718 connection classified NORMAL
+[NEW] ?@10.0.0.14:59000 connection classified NORMAL
+[NEW] ?@10.0.0.11:54818 connection classified NORMAL
+[NEW] ?@10.0.0.12:42258 connection classified NORMAL
+[NEW] ?@10.0.0.13:49734 connection classified NORMAL
+[NEW] ?@10.0.0.14:59016 connection classified NORMAL
+[NEW] ?@10.0.0.11:54830 connection classified NORMAL
+[NEW] ?@10.0.0.12:42260 connection classified NORMAL
+[NEW] ?@10.0.0.13:49736 connection classified NORMAL
+[NEW] ?@10.0.0.12:42272 connection classified NORMAL
+[NEW] ?@10.0.0.14:59022 connection classified NORMAL
+[NEW] ?@10.0.0.11:54846 connection classified NORMAL
+[NEW] ?@10.0.0.13:49744 connection classified NORMAL
+[NEW] ?@10.0.0.14:59038 connection classified NORMAL
+[NEW] ?@10.0.0.12:42280 connection classified NORMAL
+[NEW] ?@10.0.0.11:54854 connection classified NORMAL
+[NEW] ?@10.0.0.13:49760 connection classified NORMAL
+[NEW] ?@10.0.0.14:59044 connection classified NORMAL
+[NEW] ?@10.0.0.12:42286 connection classified NORMAL
+[NEW] ?@10.0.0.11:54858 connection classified NORMAL
+[NEW] ?@10.0.0.13:49774 connection classified NORMAL
+[NEW] ?@10.0.0.14:59056 connection classified NORMAL
+[NEW] ?@10.0.0.12:42292 connection classified NORMAL
+[NEW] ?@10.0.0.11:54868 connection classified NORMAL
+[NEW] ?@10.0.0.13:49782 connection classified NORMAL
+[NEW] ?@10.0.0.12:42300 connection classified NORMAL
+[NEW] ?@10.0.0.11:54880 connection classified NORMAL
+[NEW] ?@10.0.0.14:59060 connection classified NORMAL
+[NEW] ?@10.0.0.13:49796 connection classified NORMAL
+[NEW] ?@10.0.0.12:42304 connection classified NORMAL
+[NEW] ?@10.0.0.11:54884 connection classified NORMAL
+[NEW] ?@10.0.0.14:59070 connection classified NORMAL
+[NEW] ?@10.0.0.13:49810 connection classified NORMAL
+[NEW] ?@10.0.0.12:42314 connection classified NORMAL
+[NEW] ?@10.0.0.11:54898 connection classified NORMAL
+[NEW] ?@10.0.0.14:59078 connection classified NORMAL
+[NEW] ?@10.0.0.13:49818 connection classified NORMAL
+[NEW] ?@10.0.0.12:42326 connection classified NORMAL
+[NEW] ?@10.0.0.11:54908 connection classified NORMAL
+[NEW] ?@10.0.0.14:59084 connection classified NORMAL
+[NEW] ?@10.0.0.13:49826 connection classified NORMAL
+[NEW] ?@10.0.0.11:54924 connection classified NORMAL
+[NEW] ?@10.0.0.12:42332 connection classified NORMAL
+[NEW] ?@10.0.0.13:49840 connection classified NORMAL
+[NEW] ?@10.0.0.14:59088 connection classified NORMAL
+[NEW] ?@10.0.0.12:42336 connection classified NORMAL
+[NEW] ?@10.0.0.11:54938 connection classified NORMAL
+[NEW] ?@10.0.0.13:49854 connection classified NORMAL
+[NEW] ?@10.0.0.14:59092 connection classified NORMAL
+[NEW] ?@10.0.0.13:49864 connection classified NORMAL
+[NEW] ?@10.0.0.11:54954 connection classified NORMAL
+[NEW] ?@10.0.0.12:42338 connection classified NORMAL
+[NEW] ?@10.0.0.14:59100 connection classified NORMAL
+[NEW] ?@10.0.0.12:42348 connection classified NORMAL
+[NEW] ?@10.0.0.13:49876 connection classified NORMAL
+[NEW] ?@10.0.0.14:59114 connection classified NORMAL
+[NEW] ?@10.0.0.11:54956 connection classified NORMAL
+[NEW] ?@10.0.0.12:42358 connection classified NORMAL
+[NEW] ?@10.0.0.13:49888 connection classified NORMAL
+[NEW] ?@10.0.0.14:59126 connection classified NORMAL
+[NEW] ?@10.0.0.11:54958 connection classified NORMAL
+[NEW] ?@10.0.0.12:42366 connection classified NORMAL
+[NEW] ?@10.0.0.13:49902 connection classified NORMAL
+[NEW] ?@10.0.0.14:59130 connection classified NORMAL
+[NEW] ?@10.0.0.11:54974 connection classified NORMAL
+[NEW] ?@10.0.0.12:42382 connection classified NORMAL
+[NEW] ?@10.0.0.11:54976 connection classified NORMAL
+[NEW] ?@10.0.0.14:59136 connection classified NORMAL
+[NEW] ?@10.0.0.13:49912 connection classified NORMAL
+[NEW] ?@10.0.0.12:42398 connection classified NORMAL
+[NEW] ?@10.0.0.13:49926 connection classified NORMAL
+[NEW] ?@10.0.0.11:54982 connection classified NORMAL
+[NEW] ?@10.0.0.14:59146 connection classified NORMAL
+[NEW] ?@10.0.0.12:42410 connection classified NORMAL
+[NEW] ?@10.0.0.13:49932 connection classified NORMAL
+[NEW] ?@10.0.0.11:54998 connection classified NORMAL
+[NEW] ?@10.0.0.14:59152 connection classified NORMAL
+[NEW] ?@10.0.0.12:42412 connection classified NORMAL
+[NEW] ?@10.0.0.13:49934 connection classified NORMAL
+[NEW] ?@10.0.0.14:59166 connection classified NORMAL
+[NEW] ?@10.0.0.14:59170 connection classified NORMAL
+[NEW] ?@10.0.0.13:49938 connection classified NORMAL
+[NEW] ?@10.0.0.12:42418 connection classified NORMAL
+[NEW] ?@10.0.0.14:59184 connection classified NORMAL
+[NEW] ?@10.0.0.12:42430 connection classified NORMAL
+[NEW] ?@10.0.0.14:59194 connection classified NORMAL
+[NEW] ?@10.0.0.12:42444 connection classified NORMAL
+(57314) accepted ('127.0.0.1', 53860)
+127.0.0.1 - - [25/Oct/2026 20:32:28] "GET /chat/state HTTP/1.1" 200 182526 0.008037
+(57314) accepted ('127.0.0.1', 53868)
+[MODE] mode=sdn monitor=True (all flows flushed)
+127.0.0.1 - - [25/Oct/2026 20:32:28] "POST /mode HTTP/1.1" 200 176 0.003229
+bad event b'{"event": "logout", "user": "user_90", "room": null, "client_ip": "10.0.0.14", "client_port": 59114, "ts": 1792940548.5342157}'
+Traceback (most recent call last):
+  File "/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py", line 374, in _event_listener
+    self.handle_event(json.loads(data.decode("utf-8")))
+  File "/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py", line 228, in handle_event
+    self.reapply(conn, "%s%s" % (kind, " " + room if room else ""))
+  File "/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py", line 198, in reapply
+    for (dpid, _direction), (match, out_port) in conn.flows.items():
+RuntimeError: dictionary changed size during iteration
+[CLASS] user_30@10.0.0.12:42280 None -> NORMAL (leave general)
+[CLASS] user_52@10.0.0.13:49706 None -> NORMAL (leave general)
+[CLASS] user_61@10.0.0.13:49810 None -> NORMAL (leave general)
+[CLASS] user_20@10.0.0.11:54958 None -> NORMAL (leave general)
+[CLASS] user_48@10.0.0.12:42430 None -> NORMAL (leave general)
+[CLASS] user_81@10.0.0.14:59044 None -> NORMAL (leave general)
+[CLASS] vip_15@10.0.0.11:54908 None -> HIGH (leave general)
+[CLASS] vip_15@10.0.0.11:54908 HIGH -> NORMAL (logout)
+[CLASS] user_63@10.0.0.13:49826 None -> NORMAL (leave general)
+[CLASS] vip_18@10.0.0.11:54954 None -> HIGH (leave general)
+[CLASS] vip_18@10.0.0.11:54954 HIGH -> NORMAL (logout)
+[CLASS] vip_19@10.0.0.11:54956 None -> HIGH (leave general)
+[CLASS] vip_19@10.0.0.11:54956 HIGH -> NORMAL (logout)
+[CLASS] user_58@10.0.0.13:49774 None -> NORMAL (leave general)
+[CLASS] user_24@10.0.0.11:54998 None -> NORMAL (leave general)
+[CLASS] vip_1@10.0.0.11:54760 None -> HIGH (leave general)
+[CLASS] vip_1@10.0.0.11:54760 HIGH -> NORMAL (logout)
+[CLASS] user_79@10.0.0.14:59022 None -> NORMAL (leave general)
+[CLASS] user_35@10.0.0.12:42314 None -> NORMAL (leave general)
+[CLASS] user_53@10.0.0.13:49718 None -> NORMAL (leave general)
+[CLASS] user_62@10.0.0.13:49818 None -> NORMAL (leave general)
+[CLASS] user_92@10.0.0.14:59130 None -> NORMAL (leave general)
+[CLASS] user_64@10.0.0.13:49840 None -> NORMAL (leave general)
+[CLASS] user_50@10.0.0.13:49686 None -> NORMAL (leave general)
+[CLASS] user_74@10.0.0.13:49938 None -> NORMAL (leave general)
+[CLASS] user_29@10.0.0.12:42272 None -> NORMAL (leave general)
+[CLASS] user_88@10.0.0.14:59092 None -> NORMAL (leave general)
+[CLASS] user_23@10.0.0.11:54982 None -> NORMAL (leave general)
+[CLASS] user_76@10.0.0.14:58986 None -> NORMAL (leave general)
+[CLASS] user_89@10.0.0.14:59100 None -> NORMAL (leave general)
+[NEW] ?@10.0.0.11:42170 connection classified NORMAL
+[NEW] ?@10.0.0.11:42174 connection classified NORMAL
+[NEW] ?@10.0.0.11:42186 connection classified NORMAL
+[NEW] ?@10.0.0.11:42198 connection classified NORMAL
+[NEW] ?@10.0.0.11:42210 connection classified NORMAL
+[NEW] ?@10.0.0.11:42212 connection classified NORMAL
+[NEW] ?@10.0.0.11:42216 connection classified NORMAL
+[NEW] ?@10.0.0.11:42226 connection classified NORMAL
+[NEW] ?@10.0.0.11:42242 connection classified NORMAL
+[NEW] ?@10.0.0.11:42246 connection classified NORMAL
+[NEW] ?@10.0.0.11:42260 connection classified NORMAL
+[NEW] ?@10.0.0.11:42274 connection classified NORMAL
+[NEW] ?@10.0.0.12:45062 connection classified NORMAL
+[NEW] ?@10.0.0.13:35004 connection classified NORMAL
+[NEW] ?@10.0.0.14:36046 connection classified NORMAL
+[NEW] ?@10.0.0.11:42282 connection classified NORMAL
+[NEW] ?@10.0.0.12:45070 connection classified NORMAL
+[NEW] ?@10.0.0.14:36056 connection classified NORMAL
+[NEW] ?@10.0.0.11:42288 connection classified NORMAL
+[NEW] ?@10.0.0.13:35012 connection classified NORMAL
+[NEW] ?@10.0.0.13:35028 connection classified NORMAL
+[NEW] ?@10.0.0.12:45082 connection classified NORMAL
+[NEW] ?@10.0.0.14:36068 connection classified NORMAL
+[NEW] ?@10.0.0.11:42290 connection classified NORMAL
+[NEW] ?@10.0.0.13:35042 connection classified NORMAL
+[NEW] ?@10.0.0.11:42306 connection classified NORMAL
+[NEW] ?@10.0.0.12:45086 connection classified NORMAL
+[NEW] ?@10.0.0.14:36078 connection classified NORMAL
+[NEW] ?@10.0.0.13:35046 connection classified NORMAL
+[NEW] ?@10.0.0.11:42320 connection classified NORMAL
+[CLASS] vip_0@10.0.0.11:42170 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.12:45092 connection classified NORMAL
+[NEW] ?@10.0.0.14:36090 connection classified NORMAL
+[NEW] ?@10.0.0.11:42326 connection classified NORMAL
+[NEW] ?@10.0.0.13:35054 connection classified NORMAL
+[NEW] ?@10.0.0.14:36102 connection classified NORMAL
+[NEW] ?@10.0.0.11:42334 connection classified NORMAL
+[NEW] ?@10.0.0.12:45104 connection classified NORMAL
+[CLASS] vip_5@10.0.0.11:42212 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.13:35060 connection classified NORMAL
+[NEW] ?@10.0.0.14:36114 connection classified NORMAL
+[NEW] ?@10.0.0.12:45114 connection classified NORMAL
+[NEW] ?@10.0.0.11:42336 connection classified NORMAL
+[NEW] ?@10.0.0.13:35070 connection classified NORMAL
+[NEW] ?@10.0.0.11:42350 connection classified NORMAL
+[NEW] ?@10.0.0.12:45130 connection classified NORMAL
+[NEW] ?@10.0.0.14:36120 connection classified NORMAL
+[NEW] ?@10.0.0.13:35072 connection classified NORMAL
+[NEW] ?@10.0.0.13:35080 connection classified NORMAL
+[NEW] ?@10.0.0.11:42356 connection classified NORMAL
+[NEW] ?@10.0.0.14:36136 connection classified NORMAL
+[NEW] ?@10.0.0.12:45138 connection classified NORMAL
+[NEW] ?@10.0.0.13:35084 connection classified NORMAL
+[NEW] ?@10.0.0.14:36142 connection classified NORMAL
+[NEW] ?@10.0.0.11:42362 connection classified NORMAL
+[NEW] ?@10.0.0.12:45152 connection classified NORMAL
+[NEW] ?@10.0.0.13:35096 connection classified NORMAL
+[CLASS] vip_1@10.0.0.11:42174 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.14:36146 connection classified NORMAL
+[NEW] ?@10.0.0.11:42374 connection classified NORMAL
+[NEW] ?@10.0.0.12:45168 connection classified NORMAL
+[NEW] ?@10.0.0.13:35104 connection classified NORMAL
+[NEW] ?@10.0.0.11:42378 connection classified NORMAL
+[NEW] ?@10.0.0.14:36148 connection classified NORMAL
+[NEW] ?@10.0.0.12:45180 connection classified NORMAL
+[NEW] ?@10.0.0.13:35118 connection classified NORMAL
+[NEW] ?@10.0.0.14:36150 connection classified NORMAL
+[NEW] ?@10.0.0.12:45182 connection classified NORMAL
+[NEW] ?@10.0.0.13:35132 connection classified NORMAL
+[NEW] ?@10.0.0.13:35142 connection classified NORMAL
+[NEW] ?@10.0.0.12:45188 connection classified NORMAL
+[NEW] ?@10.0.0.14:36166 connection classified NORMAL
+[CLASS] vip_2@10.0.0.11:42186 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.13:35144 connection classified NORMAL
+[NEW] ?@10.0.0.12:45204 connection classified NORMAL
+[NEW] ?@10.0.0.14:36170 connection classified NORMAL
+[NEW] ?@10.0.0.14:36172 connection classified NORMAL
+[NEW] ?@10.0.0.12:45208 connection classified NORMAL
+[CLASS] vip_11@10.0.0.11:42274 NORMAL -> HIGH (login)
+[CLASS] vip_3@10.0.0.11:42198 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.13:35150 connection classified NORMAL
+[NEW] ?@10.0.0.13:35156 connection classified NORMAL
+[NEW] ?@10.0.0.12:45214 connection classified NORMAL
+[NEW] ?@10.0.0.14:36174 connection classified NORMAL
+[NEW] ?@10.0.0.13:35158 connection classified NORMAL
+[NEW] ?@10.0.0.12:45222 connection classified NORMAL
+[NEW] ?@10.0.0.14:36182 connection classified NORMAL
+[CLASS] vip_4@10.0.0.11:42210 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.13:35164 connection classified NORMAL
+[NEW] ?@10.0.0.12:45226 connection classified NORMAL
+[NEW] ?@10.0.0.14:36184 connection classified NORMAL
+[CLASS] vip_6@10.0.0.11:42216 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.13:35168 connection classified NORMAL
+[NEW] ?@10.0.0.12:45240 connection classified NORMAL
+[NEW] ?@10.0.0.14:36190 connection classified NORMAL
+[NEW] ?@10.0.0.13:35176 connection classified NORMAL
+[CLASS] vip_8@10.0.0.11:42242 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.13:35186 connection classified NORMAL
+[NEW] ?@10.0.0.12:45252 connection classified NORMAL
+[NEW] ?@10.0.0.14:36202 connection classified NORMAL
+[CLASS] vip_7@10.0.0.11:42226 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.12:45262 connection classified NORMAL
+[NEW] ?@10.0.0.13:35198 connection classified NORMAL
+[NEW] ?@10.0.0.14:36214 connection classified NORMAL
+[CLASS] vip_9@10.0.0.11:42246 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.12:45270 connection classified NORMAL
+[NEW] ?@10.0.0.14:36222 connection classified NORMAL
+[NEW] ?@10.0.0.12:45272 connection classified NORMAL
+[NEW] ?@10.0.0.12:45288 connection classified NORMAL
+[NEW] ?@10.0.0.14:36232 connection classified NORMAL
+[NEW] ?@10.0.0.14:36248 connection classified NORMAL
+[CLASS] vip_10@10.0.0.11:42260 NORMAL -> HIGH (login)
+[CLASS] vip_12@10.0.0.11:42282 NORMAL -> HIGH (login)
+[CLASS] vip_18@10.0.0.11:42334 NORMAL -> HIGH (login)
+[CLASS] vip_15@10.0.0.11:42306 NORMAL -> HIGH (login)
+[CLASS] vip_16@10.0.0.11:42320 NORMAL -> HIGH (login)
+[CLASS] vip_14@10.0.0.11:42290 NORMAL -> HIGH (login)
+[CLASS] vip_13@10.0.0.11:42288 NORMAL -> HIGH (login)
+[CLASS] vip_17@10.0.0.11:42326 NORMAL -> HIGH (login)
+[CLASS] vip_19@10.0.0.11:42336 NORMAL -> HIGH (login)
+[CLASS] vip_3@10.0.0.11:42198 HIGH -> NORMAL (logout)
+[CLASS] vip_16@10.0.0.11:42320 HIGH -> NORMAL (logout)
+[CLASS] vip_13@10.0.0.11:42288 HIGH -> NORMAL (logout)
+[CLASS] vip_5@10.0.0.11:42212 HIGH -> NORMAL (logout)
+[CLASS] vip_1@10.0.0.11:42174 HIGH -> NORMAL (logout)
+(57314) accepted ('127.0.0.1', 38794)
+127.0.0.1 - - [25/Oct/2026 20:33:07] "GET /chat/state HTTP/1.1" 200 214164 0.008685
+[CLASS] vip_2@10.0.0.11:42186 HIGH -> NORMAL (logout)
+[CLASS] vip_4@10.0.0.11:42210 HIGH -> NORMAL (logout)
+[CLASS] vip_6@10.0.0.11:42216 HIGH -> NORMAL (logout)
+(57314) accepted ('127.0.0.1', 38810)
+[CLASS] vip_8@10.0.0.11:42242 HIGH -> NORMAL (logout)
+[MODE] mode=sdn monitor=True (all flows flushed)
+127.0.0.1 - - [25/Oct/2026 20:33:07] "POST /mode HTTP/1.1" 200 176 0.007829
+bad event b'{"event": "leave", "user": "user_35", "room": "load_3", "client_ip": "10.0.0.12", "client_port": 45168, "ts": 1792940586.8932214}'
+Traceback (most recent call last):
+  File "/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py", line 374, in _event_listener
+    self.handle_event(json.loads(data.decode("utf-8")))
+  File "/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py", line 228, in handle_event
+    self.reapply(conn, "%s%s" % (kind, " " + room if room else ""))
+  File "/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py", line 198, in reapply
+    for (dpid, _direction), (match, out_port) in conn.flows.items():
+RuntimeError: dictionary changed size during iteration
+[CLASS] user_35@10.0.0.12:45168 None -> NORMAL (logout)
+[CLASS] user_37@10.0.0.12:45182 None -> NORMAL (leave general)
+[CLASS] user_45@10.0.0.12:45252 None -> NORMAL (leave general)
+[CLASS] user_79@10.0.0.14:36090 None -> NORMAL (leave general)
+[CLASS] user_49@10.0.0.12:45288 None -> NORMAL (leave general)
+[CLASS] user_61@10.0.0.13:35096 None -> NORMAL (leave general)
+[CLASS] user_24@10.0.0.11:42378 None -> NORMAL (leave general)
+[CLASS] user_77@10.0.0.14:36068 None -> NORMAL (leave general)
+[CLASS] user_39@10.0.0.12:45204 None -> NORMAL (leave general)
+[CLASS] user_82@10.0.0.14:36120 None -> NORMAL (leave general)
+[CLASS] user_64@10.0.0.13:35132 None -> NORMAL (leave general)
+[CLASS] vip_0@10.0.0.11:42170 None -> HIGH (leave general)
+[CLASS] vip_0@10.0.0.11:42170 HIGH -> NORMAL (logout)
+[CLASS] user_88@10.0.0.14:36166 None -> NORMAL (leave general)
+[CLASS] user_41@10.0.0.12:45214 None -> NORMAL (leave general)
+[CLASS] user_93@10.0.0.14:36184 None -> NORMAL (leave general)
+[CLASS] vip_11@10.0.0.11:42274 None -> HIGH (leave general)
+[CLASS] vip_11@10.0.0.11:42274 HIGH -> NORMAL (logout)
+[CLASS] user_78@10.0.0.14:36078 None -> NORMAL (leave general)
+[CLASS] user_87@10.0.0.14:36150 None -> NORMAL (leave general)
+[CLASS] vip_17@10.0.0.11:42326 None -> HIGH (leave general)
+[CLASS] vip_17@10.0.0.11:42326 HIGH -> NORMAL (logout)
+[CLASS] user_97@10.0.0.14:36222 None -> NORMAL (leave general)
+[CLASS] user_43@10.0.0.12:45226 None -> NORMAL (leave general)
+[CLASS] user_26@10.0.0.12:45070 None -> NORMAL (leave general)
+[CLASS] user_67@10.0.0.13:35156 None -> NORMAL (leave general)
+[CLASS] user_28@10.0.0.12:45086 None -> NORMAL (leave general)
+[CLASS] user_53@10.0.0.13:35042 None -> NORMAL (leave general)
+[CLASS] user_69@10.0.0.13:35158 None -> NORMAL (leave general)
+[CLASS] user_29@10.0.0.12:45092 None -> NORMAL (leave general)
+[CLASS] user_86@10.0.0.14:36148 None -> NORMAL (leave general)
+[CLASS] user_54@10.0.0.13:35046 None -> NORMAL (leave general)
+[CLASS] user_36@10.0.0.12:45180 None -> NORMAL (leave general)
+[CLASS] vip_9@10.0.0.11:42246 None -> HIGH (leave general)
+[CLASS] vip_9@10.0.0.11:42246 HIGH -> NORMAL (logout)
+[CLASS] user_57@10.0.0.13:35070 None -> NORMAL (leave general)
+[CLASS] vip_7@10.0.0.11:42226 None -> HIGH (leave general)
+[CLASS] vip_7@10.0.0.11:42226 HIGH -> NORMAL (logout)
+[CLASS] user_85@10.0.0.14:36146 None -> NORMAL (leave general)
+[CLASS] vip_15@10.0.0.11:42306 None -> HIGH (leave general)
+[CLASS] vip_15@10.0.0.11:42306 HIGH -> NORMAL (logout)
+[CLASS] user_89@10.0.0.14:36170 None -> NORMAL (leave general)
+[CLASS] user_27@10.0.0.12:45082 None -> NORMAL (leave general)
+[CLASS] user_58@10.0.0.13:35072 None -> NORMAL (leave general)
+[CLASS] user_23@10.0.0.11:42374 None -> NORMAL (leave general)
+[CLASS] vip_10@10.0.0.11:42260 None -> HIGH (leave general)
+[CLASS] vip_10@10.0.0.11:42260 HIGH -> NORMAL (logout)
+[CLASS] vip_12@10.0.0.11:42282 None -> HIGH (leave general)
+[CLASS] vip_12@10.0.0.11:42282 HIGH -> NORMAL (logout)
+[CLASS] user_60@10.0.0.13:35084 None -> NORMAL (leave general)
+[CLASS] user_66@10.0.0.13:35144 None -> NORMAL (leave general)
+[CLASS] user_31@10.0.0.12:45114 None -> NORMAL (leave general)
+[CLASS] user_63@10.0.0.13:35118 None -> NORMAL (leave general)
+[CLASS] user_47@10.0.0.12:45270 None -> NORMAL (leave general)
+[CLASS] user_40@10.0.0.12:45208 None -> NORMAL (leave general)
+[CLASS] user_38@10.0.0.12:45188 None -> NORMAL (leave general)
+[CLASS] user_73@10.0.0.13:35186 None -> NORMAL (leave general)
+[CLASS] vip_14@10.0.0.11:42290 None -> HIGH (leave general)
+[CLASS] vip_14@10.0.0.11:42290 HIGH -> NORMAL (logout)
+[CLASS] user_34@10.0.0.12:45152 None -> NORMAL (leave general)
+[CLASS] user_65@10.0.0.13:35142 None -> NORMAL (leave general)
+[CLASS] user_21@10.0.0.11:42356 None -> NORMAL (leave general)
+[CLASS] vip_18@10.0.0.11:42334 None -> HIGH (leave general)
+[CLASS] vip_18@10.0.0.11:42334 HIGH -> NORMAL (logout)
+[CLASS] user_20@10.0.0.11:42350 None -> NORMAL (leave general)
+[CLASS] vip_19@10.0.0.11:42336 None -> HIGH (leave general)
+[CLASS] vip_19@10.0.0.11:42336 HIGH -> NORMAL (logout)
+[CLASS] user_91@10.0.0.14:36174 None -> NORMAL (leave general)
+[CLASS] user_70@10.0.0.13:35164 None -> NORMAL (leave general)
+[NEW] ?@10.0.0.11:55136 connection classified NORMAL
+[NEW] ?@10.0.0.11:55142 connection classified NORMAL
+[NEW] ?@10.0.0.11:55156 connection classified NORMAL
+[NEW] ?@10.0.0.11:55170 connection classified NORMAL
+[NEW] ?@10.0.0.11:55182 connection classified NORMAL
+[NEW] ?@10.0.0.11:55194 connection classified NORMAL
+[NEW] ?@10.0.0.11:55206 connection classified NORMAL
+[NEW] ?@10.0.0.11:55212 connection classified NORMAL
+[NEW] ?@10.0.0.11:55214 connection classified NORMAL
+[NEW] ?@10.0.0.11:55224 connection classified NORMAL
+[NEW] ?@10.0.0.11:55234 connection classified NORMAL
+[NEW] ?@10.0.0.11:55246 connection classified NORMAL
+[NEW] ?@10.0.0.11:55250 connection classified NORMAL
+[NEW] ?@10.0.0.11:55260 connection classified NORMAL
+[NEW] ?@10.0.0.11:55270 connection classified NORMAL
+[NEW] ?@10.0.0.11:55278 connection classified NORMAL
+[NEW] ?@10.0.0.11:55284 connection classified NORMAL
+[NEW] ?@10.0.0.11:55288 connection classified NORMAL
+[CLASS] vip_1@10.0.0.11:55142 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.11:55304 connection classified NORMAL
+[NEW] ?@10.0.0.11:55320 connection classified NORMAL
+[NEW] ?@10.0.0.11:55322 connection classified NORMAL
+[NEW] ?@10.0.0.11:55332 connection classified NORMAL
+[NEW] ?@10.0.0.11:55342 connection classified NORMAL
+[NEW] ?@10.0.0.11:55358 connection classified NORMAL
+[NEW] ?@10.0.0.11:55372 connection classified NORMAL
+[NEW] ?@10.0.0.14:44560 connection classified NORMAL
+[NEW] ?@10.0.0.13:44404 connection classified NORMAL
+[NEW] ?@10.0.0.13:44414 connection classified NORMAL
+[NEW] ?@10.0.0.14:44574 connection classified NORMAL
+[NEW] ?@10.0.0.13:44430 connection classified NORMAL
+[NEW] ?@10.0.0.14:44578 connection classified NORMAL
+[NEW] ?@10.0.0.13:44436 connection classified NORMAL
+[NEW] ?@10.0.0.14:44580 connection classified NORMAL
+[NEW] ?@10.0.0.13:44448 connection classified NORMAL
+[NEW] ?@10.0.0.12:51724 connection classified NORMAL
+[NEW] ?@10.0.0.13:44456 connection classified NORMAL
+[NEW] ?@10.0.0.14:44592 connection classified NORMAL
+[NEW] ?@10.0.0.12:51738 connection classified NORMAL
+[NEW] ?@10.0.0.13:44466 connection classified NORMAL
+[NEW] ?@10.0.0.14:44596 connection classified NORMAL
+[NEW] ?@10.0.0.12:51740 connection classified NORMAL
+[NEW] ?@10.0.0.14:44612 connection classified NORMAL
+[NEW] ?@10.0.0.13:44476 connection classified NORMAL
+[NEW] ?@10.0.0.12:51752 connection classified NORMAL
+[NEW] ?@10.0.0.14:44622 connection classified NORMAL
+[CLASS] vip_13@10.0.0.11:55260 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.13:44492 connection classified NORMAL
+[NEW] ?@10.0.0.12:51768 connection classified NORMAL
+[CLASS] vip_0@10.0.0.11:55136 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.14:44636 connection classified NORMAL
+[NEW] ?@10.0.0.13:44504 connection classified NORMAL
+[CLASS] vip_14@10.0.0.11:55270 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.12:51778 connection classified NORMAL
+[NEW] ?@10.0.0.12:51782 connection classified NORMAL
+[NEW] ?@10.0.0.13:44518 connection classified NORMAL
+[NEW] ?@10.0.0.14:44644 connection classified NORMAL
+[CLASS] vip_8@10.0.0.11:55214 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.14:44658 connection classified NORMAL
+[NEW] ?@10.0.0.12:51786 connection classified NORMAL
+[NEW] ?@10.0.0.13:44530 connection classified NORMAL
+[CLASS] vip_2@10.0.0.11:55156 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.14:44666 connection classified NORMAL
+[NEW] ?@10.0.0.12:51794 connection classified NORMAL
+[NEW] ?@10.0.0.13:44544 connection classified NORMAL
+[NEW] ?@10.0.0.14:44682 connection classified NORMAL
+[CLASS] vip_7@10.0.0.11:55212 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.12:51802 connection classified NORMAL
+[NEW] ?@10.0.0.13:44548 connection classified NORMAL
+[NEW] ?@10.0.0.12:51810 connection classified NORMAL
+[NEW] ?@10.0.0.14:44684 connection classified NORMAL
+[NEW] ?@10.0.0.13:44562 connection classified NORMAL
+[NEW] ?@10.0.0.14:44696 connection classified NORMAL
+[NEW] ?@10.0.0.13:44574 connection classified NORMAL
+[NEW] ?@10.0.0.12:51826 connection classified NORMAL
+[NEW] ?@10.0.0.12:51832 connection classified NORMAL
+[NEW] ?@10.0.0.13:44578 connection classified NORMAL
+[CLASS] vip_3@10.0.0.11:55170 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.14:44706 connection classified NORMAL
+[NEW] ?@10.0.0.12:51840 connection classified NORMAL
+[NEW] ?@10.0.0.14:44718 connection classified NORMAL
+[CLASS] vip_4@10.0.0.11:55182 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.13:44588 connection classified NORMAL
+[NEW] ?@10.0.0.14:44720 connection classified NORMAL
+[NEW] ?@10.0.0.13:44602 connection classified NORMAL
+[CLASS] vip_6@10.0.0.11:55206 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.12:51856 connection classified NORMAL
+[NEW] ?@10.0.0.13:44606 connection classified NORMAL
+[CLASS] vip_11@10.0.0.11:55246 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.14:44728 connection classified NORMAL
+[NEW] ?@10.0.0.12:51864 connection classified NORMAL
+[CLASS] vip_17@10.0.0.11:55288 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.13:44618 connection classified NORMAL
+[NEW] ?@10.0.0.12:51878 connection classified NORMAL
+[NEW] ?@10.0.0.14:44734 connection classified NORMAL
+[NEW] ?@10.0.0.13:44630 connection classified NORMAL
+[NEW] ?@10.0.0.12:51890 connection classified NORMAL
+[CLASS] vip_10@10.0.0.11:55234 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.14:44748 connection classified NORMAL
+[NEW] ?@10.0.0.13:44634 connection classified NORMAL
+[NEW] ?@10.0.0.12:51892 connection classified NORMAL
+[CLASS] vip_5@10.0.0.11:55194 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.14:44758 connection classified NORMAL
+[NEW] ?@10.0.0.13:44646 connection classified NORMAL
+[CLASS] vip_9@10.0.0.11:55224 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.14:44772 connection classified NORMAL
+[NEW] ?@10.0.0.12:51902 connection classified NORMAL
+[NEW] ?@10.0.0.13:44656 connection classified NORMAL
+[NEW] ?@10.0.0.12:51912 connection classified NORMAL
+[NEW] ?@10.0.0.14:44782 connection classified NORMAL
+[NEW] ?@10.0.0.14:44790 connection classified NORMAL
+[CLASS] vip_15@10.0.0.11:55278 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.12:51920 connection classified NORMAL
+[NEW] ?@10.0.0.12:51930 connection classified NORMAL
+[NEW] ?@10.0.0.12:51932 connection classified NORMAL
+[NEW] ?@10.0.0.12:51938 connection classified NORMAL
+[CLASS] vip_12@10.0.0.11:55250 NORMAL -> HIGH (login)
+[CLASS] vip_16@10.0.0.11:55284 NORMAL -> HIGH (login)
+[CLASS] vip_18@10.0.0.11:55304 NORMAL -> HIGH (login)
+[CLASS] vip_19@10.0.0.11:55320 NORMAL -> HIGH (login)
+[CLASS] vip_6@10.0.0.11:55206 HIGH -> NORMAL (logout)
+[CLASS] vip_1@10.0.0.11:55142 HIGH -> NORMAL (logout)
+[CLASS] vip_0@10.0.0.11:55136 HIGH -> NORMAL (logout)
+[CLASS] vip_8@10.0.0.11:55214 HIGH -> NORMAL (logout)
+[CLASS] vip_4@10.0.0.11:55182 HIGH -> NORMAL (logout)
+[CLASS] vip_15@10.0.0.11:55278 HIGH -> NORMAL (logout)
+[CLASS] vip_11@10.0.0.11:55246 HIGH -> NORMAL (logout)
+[CLASS] vip_10@10.0.0.11:55234 HIGH -> NORMAL (logout)
+[CLASS] vip_9@10.0.0.11:55224 HIGH -> NORMAL (logout)
+[CLASS] vip_16@10.0.0.11:55284 HIGH -> NORMAL (logout)
+[CLASS] vip_2@10.0.0.11:55156 HIGH -> NORMAL (logout)
+(57314) accepted ('127.0.0.1', 33382)
+127.0.0.1 - - [25/Oct/2026 20:33:48] "GET /chat/state HTTP/1.1" 200 212582 0.010206
+[CLASS] vip_14@10.0.0.11:55270 HIGH -> NORMAL (logout)
+[CLASS] vip_18@10.0.0.11:55304 HIGH -> NORMAL (logout)
+[CLASS] vip_5@10.0.0.11:55194 HIGH -> NORMAL (logout)
+[CLASS] vip_17@10.0.0.11:55288 HIGH -> NORMAL (logout)
+[CLASS] vip_12@10.0.0.11:55250 HIGH -> NORMAL (logout)
+[CLASS] vip_3@10.0.0.11:55170 HIGH -> NORMAL (logout)
+[CLASS] vip_13@10.0.0.11:55260 HIGH -> NORMAL (logout)
+switch 0000000000000001 disconnected
+switch 0000000000000002 disconnected
