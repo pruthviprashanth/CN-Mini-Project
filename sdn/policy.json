@@ -1,0 +1,23 @@
+{
+  "chat_port": 5000,
+  "user_tiers": {
+    "admin": "HIGH",
+    "vip_*": "HIGH",
+    "guest_*": "LOW"
+  },
+  "default_user_class": "NORMAL",
+  "room_classes": {
+    "announcements": "HIGH",
+    "ops": "HIGH"
+  },
+  "default_room_class": "LOW",
+  "bulk_class": "LOW",
+  "pre_auth_class": "NORMAL",
+  "blocked_users": [],
+  "monitor": {
+    "poll_interval": 1,
+    "flood_bps": 2000000,
+    "flood_intervals": 2,
+    "recover_intervals": 5
+  }
+}
