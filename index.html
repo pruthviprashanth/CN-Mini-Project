@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chat traffic demo</title>
+<style>
+  :root {
+    --bg: #f7f6f3; --surface: #ffffff; --ink: #1b1b19; --ink2: #5b5a55; --line: #e3e1db;
+    --high: #1f7a4d; --normal: #3a6fb0; --low: #b0731a; --bad: #b3261e; --accent: #1b1b19;
+    --high-bg: #e6f3ec; --normal-bg: #e8eff8; --low-bg: #f8eedc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151514; --surface: #1f1f1d; --ink: #ecebe6; --ink2: #a3a199; --line: #34332f;
+      --high: #5fc08f; --normal: #7fa8dc; --low: #e0a24a; --bad: #f2877f; --accent: #ecebe6;
+      --high-bg: #1d2e25; --normal-bg: #1f2833; --low-bg: #332a1a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .sub { color: var(--ink2); margin: 0 0 20px; }
+  .bar { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center;
+         background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  button { font: inherit; cursor: pointer; border-radius: 8px; border: 1px solid var(--line);
+           background: var(--surface); color: var(--ink); padding: 8px 14px; }
+  button:focus-visible, input:focus-visible { outline: 2px solid var(--normal); outline-offset: 2px; }
+  #toggle { background: var(--accent); color: var(--bg); border-color: var(--accent);
+            font-weight: 600; min-width: 150px; padding: 10px 18px; }
+  #toggle.on { background: var(--bad); border-color: var(--bad); color: #fff; }
+  #toggle:disabled { opacity: .5; cursor: default; }
+  .seg { display: inline-flex; }
+  .seg button { border-radius: 0; margin-left: -1px; }
+  .seg button:first-child { border-radius: 8px 0 0 8px; margin-left: 0; }
+  .seg button:last-child { border-radius: 0 8px 8px 0; }
+  .seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  select { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+           border-radius: 8px; padding: 6px 8px; }
+  label { color: var(--ink2); display: inline-flex; gap: 6px; align-items: center; }
+  .pill { margin-left: auto; font-size: 13px; padding: 3px 10px; border-radius: 99px;
+          border: 1px solid var(--line); color: var(--ink2); }
+  .pill.on { color: var(--high); border-color: var(--high); }
+  .banner { margin: 12px 0 0; padding: 10px 14px; border-radius: 8px; background: var(--low-bg);
+            color: var(--ink); border: 1px solid var(--low); }
+  .banner[hidden] { display: none; }
+  .hint { color: var(--ink2); margin: 16px 2px; }
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  @media (max-width: 680px) { .cards { grid-template-columns: 1fr; } }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+          padding: 14px 16px; border-top: 4px solid var(--c); }
+  .card h2 { margin: 0; font-size: 14px; letter-spacing: .04em; color: var(--c); }
+  .card .q { color: var(--ink2); font-size: 13px; margin-bottom: 8px; }
+  .big { font-size: 30px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .unit { font-size: 14px; color: var(--ink2); font-weight: 400; }
+  .row { display: flex; justify-content: space-between; color: var(--ink2); font-size: 13px;
+         font-variant-numeric: tabular-nums; margin-top: 4px; }
+  .HIGH { --c: var(--high); } .NORMAL { --c: var(--normal); } .LOW { --c: var(--low); }
+  h3 { font-size: 14px; margin: 24px 2px 8px; color: var(--ink2); font-weight: 600; }
+  .tablewrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  td.why { white-space: normal; min-width: 170px; }
+  th { font-size: 12px; color: var(--ink2); font-weight: 600; }
+  tr:last-child td { border-bottom: 0; }
+  td.num, th.num { text-align: right; }
+  .tag { padding: 2px 8px; border-radius: 6px; font-size: 12px; font-weight: 600;
+         color: var(--c); background: var(--bg-c); }
+  .tag.HIGH { --bg-c: var(--high-bg); } .tag.NORMAL { --bg-c: var(--normal-bg); } .tag.LOW { --bg-c: var(--low-bg); }
+  .bad { color: var(--bad); }
+  .muted { color: var(--ink2); }
+  #events { background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+            padding: 8px 14px; font: 13px/1.6 ui-monospace, Menlo, Consolas, monospace; min-height: 40px; }
+  #events div { overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Chat traffic &amp; priority demo</h1>
+  <p class="sub">Start the traffic and watch which queue each user lands in and how fast their messages get through.</p>
+
+  <div class="bar">
+    <button id="toggle" disabled>Start traffic</button>
+    <label><input type="checkbox" id="bulk" checked> Background bulk transfer</label>
+    <span class="seg" role="group" aria-label="Network mode">
+      <button id="m-sdn" aria-pressed="false">SDN priority</button>
+      <button id="m-static" aria-pressed="false">Static baseline</button>
+    </span>
+    <label>Bulk class
+      <select id="bc"><option value="LOW">LOW (default)</option><option value="NORMAL">NORMAL (same queue as regular users)</option></select>
+    </label>
+    <span class="pill" id="pill">OFF</span>
+  </div>
+  <div class="banner" id="banner" hidden></div>
+
+  <p class="hint" id="hint"></p>
+
+  <div class="cards" id="cards"></div>
+
+  <h3>Users</h3>
+  <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th>User</th><th>Host</th><th>Why this class</th><th>Class</th>
+        <th class="num">RTT median</th><th class="num">RTT p95</th><th class="num">Acked / sent</th><th>Status</th>
+      </tr></thead>
+      <tbody id="users"></tbody>
+    </table>
+  </div>
+
+  <h3>Controller log</h3>
+  <div id="events"></div>
+</main>
+
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const CLASSES = ["HIGH", "NORMAL", "LOW"];
+let last = null, busy = false;
+
+function ms(v) { return v == null ? "–" : (v < 10 ? v.toFixed(1) : Math.round(v)) ; }
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+}
+
+async function post(path, body) {
+  const r = await fetch(path, { method: "POST", headers: { "X-Demo": "1", "Content-Type": "application/json" },
+                                body: JSON.stringify(body) });
+  const j = await r.json();
+  if (!r.ok) throw new Error(j.error || r.statusText);
+}
+
+async function act(fn) {
+  if (busy) return;
+  busy = true; $("toggle").disabled = true;
+  try { await fn(); } catch (e) { showBanner("Error: " + e.message); }
+  busy = false; await refresh();
+}
+
+$("toggle").onclick = () => act(() => post("/api/traffic", { on: !(last && last.running), bulk: $("bulk").checked }));
+$("m-sdn").onclick = () => act(() => post("/api/mode", { mode: "sdn" }));
+$("bc").onchange = () => act(() => post("/api/bulkclass", { bulk_class: $("bc").value }));
+$("m-static").onclick = () => act(() => post("/api/mode", { mode: "static" }));
+
+function showBanner(text) { $("banner").hidden = !text; $("banner").textContent = text || ""; }
+
+function render(s) {
+  last = s;
+  const ready = s.controller && s.network;
+  showBanner(!s.controller ? "The controller is not reachable. Start the demo first (controller, then topology.py demo)."
+           : !s.network ? "The Mininet network is not running. Start topology.py demo."
+           : s.problems.length ? s.problems.join("; ") : "");
+  $("toggle").disabled = !ready || busy;
+  $("toggle").textContent = s.running ? "Stop traffic" : "Start traffic";
+  $("toggle").className = s.running ? "on" : "";
+  $("bulk").disabled = s.running;
+  if (s.running) $("bulk").checked = s.bulk;
+  $("m-sdn").setAttribute("aria-pressed", s.mode === "sdn");
+  $("m-static").setAttribute("aria-pressed", s.mode === "static");
+  if (s.bulk_class && document.activeElement !== $("bc")) $("bc").value = s.bulk_class;
+  $("pill").textContent = s.running ? "RUNNING " + Math.floor(s.uptime / 60) + ":" + String(Math.floor(s.uptime % 60)).padStart(2, "0") : "OFF";
+  $("pill").className = "pill" + (s.running ? " on" : "");
+
+  $("hint").textContent = !s.running
+    ? "Press Start: 8 users chat (2 VIP, 3 regular, 1 regular in the announcements room, 2 guests)" + ($("bulk").checked ? " while a bulk sender fills the 10 Mbps trunk." : " on an idle link, so all classes should look alike.")
+    : !s.bulk ? "No bulk traffic: the link is not congested, so every class is fast. Priority only matters under load."
+    : s.mode === "sdn" && s.bulk_class === "NORMAL" ? "Bulk is in the NORMAL queue: regular users now wait behind it, but HIGH (VIP) still skips ahead in its own queue. This is HIGH vs NORMAL."
+    : s.mode === "static" ? "Static baseline: every connection shares queue 2 with the bulk transfer, so everybody waits in the same line."
+    : "SDN priority: HIGH and NORMAL chat use their own queues and skip the bulk backlog. LOW (guests) queues with the bulk transfer.";
+
+  const cards = $("cards"); cards.textContent = "";
+  for (const k of CLASSES) {
+    const c = s.classes[k];
+    const card = el("div", "card " + k);
+    card.append(el("h2", null, k), el("div", "q", "queue " + c.queue + " · " + c.users + " user" + (c.users === 1 ? "" : "s")));
+    const big = el("div", "big", ms(c.p50)); big.append(el("span", "unit", " ms median"));
+    const r1 = el("div", "row"); r1.append(el("span", null, "p95"), el("span", null, ms(c.p95) + " ms"));
+    const r2 = el("div", "row"); r2.append(el("span", null, "trunk throughput"), el("span", null, c.mbps.toFixed(1) + " Mbps"));
+    card.append(big, r1, r2);
+    cards.append(card);
+  }
+
+  const tb = $("users"); tb.textContent = "";
+  for (const u of s.users) {
+    const tr = el("tr");
+    const cls = el("td"); cls.append(u.class ? el("span", "tag " + u.class, u.class + " · q" + u.queue) : el("span", "muted", "–"));
+    const st = el("td", u.state === "ok" ? "" : (u.state === "off" ? "muted" : "bad"), u.state);
+    tr.append(el("td", null, u.user), el("td", "muted", u.host), el("td", "muted why", u.why), cls,
+              el("td", "num", ms(u.p50) + (u.p50 == null ? "" : " ms")), el("td", "num", ms(u.p95) + (u.p95 == null ? "" : " ms")),
+              el("td", "num", u.acked + " / " + u.sent), st);
+    tb.append(tr);
+  }
+
+  const ev = $("events"); ev.textContent = "";
+  if (!s.events.length) ev.append(el("div", "muted", "No class changes yet."));
+  for (const e of s.events.slice().reverse())
+    ev.append(el("div", null, new Date(e.ts * 1000).toLocaleTimeString([], { hour12: false }) + "  [" + e.kind.toUpperCase() + "] " + e.text));
+}
+
+async function refresh() {
+  try { render(await (await fetch("/api/status")).json()); }
+  catch (e) { showBanner("Cannot reach the demo UI server."); }
+}
+refresh(); setInterval(() => { if (!busy) refresh(); }, 1000);
+</script>
+</body>
+</html>
