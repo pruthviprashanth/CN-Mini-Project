@@ -1,0 +1,25 @@
+2026-10-25 20:38:05,729 server INFO listening on 0.0.0.0:5000 (controller events: unix:/tmp/chat_sdn_events.sock)
+2026-10-25 20:38:05,843 server INFO registered user_2
+2026-10-25 20:38:05,868 server INFO registered user_3
+2026-10-25 20:38:05,891 server INFO user_2 logged in from 10.0.0.12:33156
+2026-10-25 20:38:05,905 server INFO user_3 logged in from 10.0.0.12:33172
+2026-10-25 20:38:05,957 server INFO registered vip_0
+2026-10-25 20:38:05,957 server INFO registered user_6
+2026-10-25 20:38:05,982 server INFO registered user_4
+2026-10-25 20:38:05,992 server INFO registered user_5
+2026-10-25 20:38:06,011 server INFO registered user_7
+2026-10-25 20:38:06,011 server INFO registered vip_1
+2026-10-25 20:38:06,016 server INFO user_6 logged in from 10.0.0.14:57574
+2026-10-25 20:38:06,016 server INFO vip_0 logged in from 10.0.0.11:37660
+2026-10-25 20:38:06,039 server INFO user_5 logged in from 10.0.0.13:58816
+2026-10-25 20:38:06,050 server INFO user_4 logged in from 10.0.0.13:58802
+2026-10-25 20:38:06,060 server INFO user_7 logged in from 10.0.0.14:57586
+2026-10-25 20:38:06,067 server INFO vip_1 logged in from 10.0.0.11:37674
+2026-10-25 20:38:29,759 server INFO user_4 disconnected (10.0.0.13:58802)
+2026-10-25 20:38:29,759 server INFO user_6 disconnected (10.0.0.14:57574)
+2026-10-25 20:38:29,765 server INFO user_5 disconnected (10.0.0.13:58816)
+2026-10-25 20:38:29,765 server INFO user_7 disconnected (10.0.0.14:57586)
+2026-10-25 20:38:29,765 server INFO vip_0 disconnected (10.0.0.11:37660)
+2026-10-25 20:38:29,765 server INFO user_3 disconnected (10.0.0.12:33172)
+2026-10-25 20:38:29,767 server INFO user_2 disconnected (10.0.0.12:33156)
+2026-10-25 20:38:29,767 server INFO vip_1 disconnected (10.0.0.11:37674)

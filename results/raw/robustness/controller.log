@@ -1,0 +1,61 @@
+loading app /home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app /home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py of ChatSDNController
+listening for chat events on /tmp/chat_sdn_events.sock
+chat controller: mode=sdn monitor=True policy=/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/policy.json events=/tmp/chat_sdn_events.sock
+instantiating app ryu.controller.ofp_handler of OFPHandler
+(60099) wsgi starting up on http://0.0.0.0:8080
+(60099) accepted ('127.0.0.1', 48992)
+127.0.0.1 - - [25/Oct/2026 20:37:24] "GET /health HTTP/1.1" 200 194 0.002535
+switch 0000000000000001 connected
+switch 0000000000000002 connected
+(60099) accepted ('127.0.0.1', 48994)
+127.0.0.1 - - [25/Oct/2026 20:37:25] "GET /health HTTP/1.1" 200 205 0.000208
+(60099) accepted ('127.0.0.1', 49006)
+[MODE] mode=sdn monitor=True (all flows flushed)
+127.0.0.1 - - [25/Oct/2026 20:37:25] "POST /mode HTTP/1.1" 200 176 0.000995
+[NEW] ?@10.0.0.11:50922 connection classified NORMAL
+[NEW] ?@10.0.0.14:58704 connection classified NORMAL
+[NEW] ?@10.0.0.12:54346 connection classified NORMAL
+[NEW] ?@10.0.0.13:43588 connection classified NORMAL
+[NEW] ?@10.0.0.11:50930 connection classified NORMAL
+[NEW] ?@10.0.0.14:58718 connection classified NORMAL
+[NEW] ?@10.0.0.13:43604 connection classified NORMAL
+[NEW] ?@10.0.0.12:54352 connection classified NORMAL
+[CLASS] vip_0@10.0.0.11:50922 NORMAL -> HIGH (login)
+[CLASS] vip_1@10.0.0.11:50930 NORMAL -> HIGH (login)
+(60099) accepted ('127.0.0.1', 41712)
+[CLASS] user_5@10.0.0.13:43604 NORMAL -> DROP (blocked by admin)
+[BLOCK] user user_5 blocked (1 connection(s))
+127.0.0.1 - - [25/Oct/2026 20:37:35] "POST /policy/block HTTP/1.1" 200 161 0.002762
+[CLASS] vip_0@10.0.0.11:50922 HIGH -> NORMAL (logout)
+[CLASS] vip_1@10.0.0.11:50930 HIGH -> NORMAL (logout)
+[NEW] ?@10.0.0.12:50274 connection classified NORMAL
+[CLASS] user_5@10.0.0.12:50274 NORMAL -> DROP (login)
+(60099) accepted ('127.0.0.1', 58774)
+[CLASS] user_5@10.0.0.13:43604 DROP -> NORMAL (unblocked by admin)
+[CLASS] user_5@10.0.0.12:50274 DROP -> NORMAL (unblocked by admin)
+[BLOCK] user user_5 unblocked (2 connection(s))
+127.0.0.1 - - [25/Oct/2026 20:38:01] "POST /policy/unblock HTTP/1.1" 200 161 0.002590
+[NEW] ?@10.0.0.12:33148 connection classified NORMAL
+(60099) accepted ('127.0.0.1', 58790)
+127.0.0.1 - - [25/Oct/2026 20:38:04] "GET /chat/state HTTP/1.1" 200 21624 0.001369
+(60099) accepted ('127.0.0.1', 58802)
+[MODE] mode=sdn monitor=True (all flows flushed)
+127.0.0.1 - - [25/Oct/2026 20:38:04] "POST /mode HTTP/1.1" 200 176 0.000888
+[NEW] user_5@10.0.0.12:33148 connection classified NORMAL
+[NEW] ?@10.0.0.12:33156 connection classified NORMAL
+[NEW] ?@10.0.0.12:33172 connection classified NORMAL
+[NEW] ?@10.0.0.13:58802 connection classified NORMAL
+[NEW] ?@10.0.0.14:57574 connection classified NORMAL
+[NEW] ?@10.0.0.11:37660 connection classified NORMAL
+[NEW] ?@10.0.0.13:58816 connection classified NORMAL
+[NEW] ?@10.0.0.14:57586 connection classified NORMAL
+[NEW] ?@10.0.0.11:37674 connection classified NORMAL
+[CLASS] vip_0@10.0.0.11:37660 NORMAL -> HIGH (login)
+[CLASS] vip_1@10.0.0.11:37674 NORMAL -> HIGH (login)
+[CLASS] vip_0@10.0.0.11:37660 HIGH -> NORMAL (logout)
+[CLASS] vip_1@10.0.0.11:37674 HIGH -> NORMAL (logout)
+switch 0000000000000001 disconnected
+switch 0000000000000002 disconnected

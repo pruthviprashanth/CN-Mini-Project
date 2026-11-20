@@ -1,0 +1,64 @@
+2026-10-25 20:33:52,478 server INFO listening on 0.0.0.0:5000 (controller events: unix:/tmp/chat_sdn_events.sock)
+2026-10-25 20:33:52,755 server INFO registered user_5
+2026-10-25 20:33:52,782 server INFO registered user_6
+2026-10-25 20:33:52,783 server INFO registered user_10
+2026-10-25 20:33:52,788 server INFO registered user_11
+2026-10-25 20:33:52,796 server INFO registered vip_2
+2026-10-25 20:33:52,849 server INFO registered user_12
+2026-10-25 20:33:52,856 server INFO registered user_7
+2026-10-25 20:33:52,864 server INFO registered vip_0
+2026-10-25 20:33:52,875 server INFO user_5 logged in from 10.0.0.12:57686
+2026-10-25 20:33:52,879 server INFO registered vip_1
+2026-10-25 20:33:52,908 server INFO registered user_8
+2026-10-25 20:33:52,911 server INFO registered user_15
+2026-10-25 20:33:52,954 server INFO registered user_16
+2026-10-25 20:33:52,990 server INFO registered user_13
+2026-10-25 20:33:53,001 server INFO user_6 logged in from 10.0.0.12:57696
+2026-10-25 20:33:53,020 server INFO registered vip_3
+2026-10-25 20:33:53,053 server INFO vip_2 logged in from 10.0.0.11:42588
+2026-10-25 20:33:53,079 server INFO user_11 logged in from 10.0.0.13:51562
+2026-10-25 20:33:53,086 server INFO registered user_4
+2026-10-25 20:33:53,094 server INFO registered user_18
+2026-10-25 20:33:53,098 server INFO user_10 logged in from 10.0.0.13:51558
+2026-10-25 20:33:53,102 server INFO registered user_14
+2026-10-25 20:33:53,107 server INFO registered user_9
+2026-10-25 20:33:53,113 server INFO registered user_17
+2026-10-25 20:33:53,117 server INFO vip_1 logged in from 10.0.0.11:42574
+2026-10-25 20:33:53,123 server INFO user_12 logged in from 10.0.0.13:51574
+2026-10-25 20:33:53,129 server INFO vip_0 logged in from 10.0.0.11:42566
+2026-10-25 20:33:53,132 server INFO user_8 logged in from 10.0.0.12:57708
+2026-10-25 20:33:53,133 server INFO user_7 logged in from 10.0.0.12:57698
+2026-10-25 20:33:53,145 server INFO user_15 logged in from 10.0.0.14:49668
+2026-10-25 20:33:53,148 server INFO registered user_19
+2026-10-25 20:33:53,169 server INFO registered flooder
+2026-10-25 20:33:53,178 server INFO user_16 logged in from 10.0.0.14:49678
+2026-10-25 20:33:53,180 server INFO user_13 logged in from 10.0.0.13:51578
+2026-10-25 20:33:53,205 server INFO user_18 logged in from 10.0.0.14:49696
+2026-10-25 20:33:53,215 server INFO user_4 logged in from 10.0.0.11:42610
+2026-10-25 20:33:53,220 server INFO vip_3 logged in from 10.0.0.11:42600
+2026-10-25 20:33:53,222 server INFO user_17 logged in from 10.0.0.14:49682
+2026-10-25 20:33:53,224 server INFO user_14 logged in from 10.0.0.13:51582
+2026-10-25 20:33:53,243 server INFO user_9 logged in from 10.0.0.12:57718
+2026-10-25 20:33:53,258 server INFO user_19 logged in from 10.0.0.14:49712
+2026-10-25 20:33:53,262 server INFO flooder logged in from 10.0.0.14:49716
+2026-10-25 20:35:01,519 server INFO vip_0 disconnected (10.0.0.11:42566)
+2026-10-25 20:35:01,521 server INFO user_6 disconnected (10.0.0.12:57696)
+2026-10-25 20:35:01,521 server INFO vip_3 disconnected (10.0.0.11:42600)
+2026-10-25 20:35:01,523 server INFO user_19 disconnected (10.0.0.14:49712)
+2026-10-25 20:35:01,523 server INFO user_9 disconnected (10.0.0.12:57718)
+2026-10-25 20:35:01,523 server INFO user_7 disconnected (10.0.0.12:57698)
+2026-10-25 20:35:01,523 server INFO user_16 disconnected (10.0.0.14:49678)
+2026-10-25 20:35:01,523 server INFO user_14 disconnected (10.0.0.13:51582)
+2026-10-25 20:35:01,524 server INFO user_13 disconnected (10.0.0.13:51578)
+2026-10-25 20:35:01,524 server INFO user_4 disconnected (10.0.0.11:42610)
+2026-10-25 20:35:01,525 server INFO vip_2 disconnected (10.0.0.11:42588)
+2026-10-25 20:35:01,525 server INFO user_11 disconnected (10.0.0.13:51562)
+2026-10-25 20:35:01,526 server INFO user_8 disconnected (10.0.0.12:57708)
+2026-10-25 20:35:01,526 server INFO user_15 disconnected (10.0.0.14:49668)
+2026-10-25 20:35:01,526 server INFO user_5 disconnected (10.0.0.12:57686)
+2026-10-25 20:35:01,529 server INFO vip_1 disconnected (10.0.0.11:42574)
+2026-10-25 20:35:01,529 server INFO flooder disconnected (10.0.0.14:49716)
+2026-10-25 20:35:01,529 server INFO user_18 disconnected (10.0.0.14:49696)
+2026-10-25 20:35:01,529 server INFO user_12 disconnected (10.0.0.13:51574)
+2026-10-25 20:35:01,530 server INFO user_10 disconnected (10.0.0.13:51558)
+2026-10-25 20:35:01,532 server INFO user_17 disconnected (10.0.0.14:49682)

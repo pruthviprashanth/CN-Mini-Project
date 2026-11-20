@@ -1,0 +1,114 @@
+loading app /home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app /home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/controller.py of ChatSDNController
+listening for chat events on /tmp/chat_sdn_events.sock
+chat controller: mode=sdn monitor=True policy=/home/pruthvi-prashanth/Desktop/CN-Mini-Project/sdn/policy.json events=/tmp/chat_sdn_events.sock
+instantiating app ryu.controller.ofp_handler of OFPHandler
+(59385) wsgi starting up on http://0.0.0.0:8080
+(59385) accepted ('127.0.0.1', 35234)
+127.0.0.1 - - [25/Oct/2026 20:33:50] "GET /health HTTP/1.1" 200 194 0.001369
+switch 0000000000000001 connected
+switch 0000000000000002 connected
+(59385) accepted ('127.0.0.1', 35248)
+127.0.0.1 - - [25/Oct/2026 20:33:51] "GET /health HTTP/1.1" 200 205 0.000295
+(59385) accepted ('127.0.0.1', 35252)
+[MODE] mode=static monitor=False (all flows flushed)
+127.0.0.1 - - [25/Oct/2026 20:33:51] "POST /mode HTTP/1.1" 200 180 0.000586
+[NEW] ?@10.0.0.12:57686 connection classified NORMAL
+[NEW] ?@10.0.0.13:51558 connection classified NORMAL
+[NEW] ?@10.0.0.12:57696 connection classified NORMAL
+[NEW] ?@10.0.0.11:42566 connection classified NORMAL
+[NEW] ?@10.0.0.13:51562 connection classified NORMAL
+[NEW] ?@10.0.0.11:42574 connection classified NORMAL
+[NEW] ?@10.0.0.13:51574 connection classified NORMAL
+[NEW] ?@10.0.0.12:57698 connection classified NORMAL
+[NEW] ?@10.0.0.14:49668 connection classified NORMAL
+[NEW] ?@10.0.0.11:42588 connection classified NORMAL
+[NEW] ?@10.0.0.13:51578 connection classified NORMAL
+[NEW] ?@10.0.0.14:49678 connection classified NORMAL
+[NEW] ?@10.0.0.12:57708 connection classified NORMAL
+[NEW] ?@10.0.0.11:42600 connection classified NORMAL
+[NEW] ?@10.0.0.13:51582 connection classified NORMAL
+[NEW] ?@10.0.0.14:49682 connection classified NORMAL
+[NEW] ?@10.0.0.12:57718 connection classified NORMAL
+[NEW] ?@10.0.0.11:42610 connection classified NORMAL
+[NEW] ?@10.0.0.14:49696 connection classified NORMAL
+[NEW] ?@10.0.0.14:49712 connection classified NORMAL
+[NEW] ?@10.0.0.14:49716 connection classified NORMAL
+(59385) accepted ('127.0.0.1', 43718)
+127.0.0.1 - - [25/Oct/2026 20:35:01] "GET /chat/state HTTP/1.1" 200 35111 0.001826
+(59385) accepted ('127.0.0.1', 43724)
+[MODE] mode=sdn monitor=False (all flows flushed)
+127.0.0.1 - - [25/Oct/2026 20:35:01] "POST /mode HTTP/1.1" 200 177 0.000680
+[NEW] ?@10.0.0.11:45012 connection classified NORMAL
+[NEW] ?@10.0.0.11:45016 connection classified NORMAL
+[NEW] ?@10.0.0.11:45024 connection classified NORMAL
+[NEW] ?@10.0.0.11:45036 connection classified NORMAL
+[NEW] ?@10.0.0.11:45046 connection classified NORMAL
+[CLASS] vip_0@10.0.0.11:45012 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.12:50968 connection classified NORMAL
+[NEW] ?@10.0.0.12:50978 connection classified NORMAL
+[NEW] ?@10.0.0.12:50994 connection classified NORMAL
+[NEW] ?@10.0.0.12:51006 connection classified NORMAL
+[NEW] ?@10.0.0.12:51010 connection classified NORMAL
+[NEW] ?@10.0.0.14:47554 connection classified NORMAL
+[NEW] ?@10.0.0.14:47568 connection classified NORMAL
+[NEW] ?@10.0.0.13:41936 connection classified NORMAL
+[NEW] ?@10.0.0.13:41942 connection classified NORMAL
+[NEW] ?@10.0.0.14:47580 connection classified NORMAL
+[NEW] ?@10.0.0.14:47594 connection classified NORMAL
+[NEW] ?@10.0.0.13:41958 connection classified NORMAL
+[CLASS] vip_1@10.0.0.11:45016 NORMAL -> HIGH (login)
+[CLASS] vip_3@10.0.0.11:45036 NORMAL -> HIGH (login)
+[CLASS] vip_2@10.0.0.11:45024 NORMAL -> HIGH (login)
+[NEW] ?@10.0.0.14:47606 connection classified NORMAL
+[NEW] ?@10.0.0.13:41968 connection classified NORMAL
+[NEW] ?@10.0.0.13:41974 connection classified NORMAL
+[NEW] ?@10.0.0.14:47612 connection classified NORMAL
+[CLASS] vip_0@10.0.0.11:45012 HIGH -> NORMAL (logout)
+[CLASS] vip_1@10.0.0.11:45016 HIGH -> NORMAL (logout)
+[CLASS] vip_3@10.0.0.11:45036 HIGH -> NORMAL (logout)
+[CLASS] vip_2@10.0.0.11:45024 HIGH -> NORMAL (logout)
+(59385) accepted ('127.0.0.1', 36834)
+127.0.0.1 - - [25/Oct/2026 20:36:11] "GET /chat/state HTTP/1.1" 200 43523 0.002228
+(59385) accepted ('127.0.0.1', 36850)
+[MODE] mode=sdn monitor=True (all flows flushed)
+127.0.0.1 - - [25/Oct/2026 20:36:11] "POST /mode HTTP/1.1" 200 176 0.000751
+[NEW] ?@10.0.0.11:50990 connection classified NORMAL
+[NEW] ?@10.0.0.14:48366 connection classified NORMAL
+[NEW] ?@10.0.0.11:50992 connection classified NORMAL
+[NEW] ?@10.0.0.11:51006 connection classified NORMAL
+[NEW] ?@10.0.0.11:51014 connection classified NORMAL
+[NEW] ?@10.0.0.11:51016 connection classified NORMAL
+[NEW] ?@10.0.0.13:58514 connection classified NORMAL
+[NEW] ?@10.0.0.13:58518 connection classified NORMAL
+[NEW] ?@10.0.0.13:58520 connection classified NORMAL
+[NEW] ?@10.0.0.13:58526 connection classified NORMAL
+[NEW] ?@10.0.0.13:58542 connection classified NORMAL
+[NEW] ?@10.0.0.12:40906 connection classified NORMAL
+[NEW] ?@10.0.0.14:48374 connection classified NORMAL
+[NEW] ?@10.0.0.12:40910 connection classified NORMAL
+[NEW] ?@10.0.0.14:48386 connection classified NORMAL
+[NEW] ?@10.0.0.12:40918 connection classified NORMAL
+[NEW] ?@10.0.0.14:48394 connection classified NORMAL
+[NEW] ?@10.0.0.14:48404 connection classified NORMAL
+[NEW] ?@10.0.0.12:40924 connection classified NORMAL
+[NEW] ?@10.0.0.14:48406 connection classified NORMAL
+[NEW] ?@10.0.0.12:40940 connection classified NORMAL
+[CLASS] vip_0@10.0.0.11:50990 NORMAL -> HIGH (login)
+[CLASS] vip_3@10.0.0.11:51014 NORMAL -> HIGH (login)
+[CLASS] vip_1@10.0.0.11:50992 NORMAL -> HIGH (login)
+[CLASS] vip_2@10.0.0.11:51006 NORMAL -> HIGH (login)
+[FLOOD] flooder@10.0.0.14:48366 rate 9.56 Mbps > 2.00 Mbps for 2 polls: demoted to LOW
+[CLASS] flooder@10.0.0.14:48366 NORMAL -> LOW (flood demotion)
+[FLOOD] flooder@10.0.0.14:48366 rate 0.00 Mbps back under 1.00 Mbps: restored
+[CLASS] flooder@10.0.0.14:48366 LOW -> NORMAL (flood recovered)
+[CLASS] vip_3@10.0.0.11:51014 HIGH -> NORMAL (logout)
+[CLASS] vip_0@10.0.0.11:50990 HIGH -> NORMAL (logout)
+[CLASS] vip_1@10.0.0.11:50992 HIGH -> NORMAL (logout)
+[CLASS] vip_2@10.0.0.11:51006 HIGH -> NORMAL (logout)
+(59385) accepted ('127.0.0.1', 48974)
+127.0.0.1 - - [25/Oct/2026 20:37:22] "GET /chat/state HTTP/1.1" 200 47524 0.004101
+switch 0000000000000001 disconnected
+switch 0000000000000002 disconnected

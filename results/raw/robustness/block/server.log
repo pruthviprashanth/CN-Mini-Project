@@ -1,0 +1,29 @@
+2026-10-25 20:37:26,297 server INFO listening on 0.0.0.0:5000 (controller events: unix:/tmp/chat_sdn_events.sock)
+2026-10-25 20:37:26,477 server INFO registered vip_0
+2026-10-25 20:37:26,488 server INFO registered user_2
+2026-10-25 20:37:26,526 server INFO registered vip_1
+2026-10-25 20:37:26,529 server INFO registered user_6
+2026-10-25 20:37:26,551 server INFO registered user_4
+2026-10-25 20:37:26,562 server INFO registered user_7
+2026-10-25 20:37:26,572 server INFO registered user_5
+2026-10-25 20:37:26,578 server INFO registered user_3
+2026-10-25 20:37:26,602 server INFO user_2 logged in from 10.0.0.12:54346
+2026-10-25 20:37:26,609 server INFO vip_0 logged in from 10.0.0.11:50922
+2026-10-25 20:37:26,632 server INFO user_6 logged in from 10.0.0.14:58704
+2026-10-25 20:37:26,639 server INFO vip_1 logged in from 10.0.0.11:50930
+2026-10-25 20:37:26,650 server INFO user_4 logged in from 10.0.0.13:43588
+2026-10-25 20:37:26,666 server INFO user_5 logged in from 10.0.0.13:43604
+2026-10-25 20:37:26,673 server INFO user_7 logged in from 10.0.0.14:58718
+2026-10-25 20:37:26,675 server INFO user_3 logged in from 10.0.0.12:54352
+2026-10-25 20:37:50,336 server INFO user_2 disconnected (10.0.0.12:54346)
+2026-10-25 20:37:50,338 server INFO vip_0 disconnected (10.0.0.11:50922)
+2026-10-25 20:37:50,340 server INFO vip_1 disconnected (10.0.0.11:50930)
+2026-10-25 20:37:50,343 server INFO user_6 disconnected (10.0.0.14:58704)
+2026-10-25 20:37:50,343 server INFO user_4 disconnected (10.0.0.13:43588)
+2026-10-25 20:37:50,343 server INFO user_3 disconnected (10.0.0.12:54352)
+2026-10-25 20:37:50,346 server INFO user_7 disconnected (10.0.0.14:58718)
+2026-10-25 20:37:56,004 server INFO user_5 disconnected (10.0.0.13:43604)
+2026-10-25 20:37:56,484 server INFO user_5 logged in from 10.0.0.12:50274
+2026-10-25 20:38:03,861 server INFO user_5 disconnected (10.0.0.12:50274)
+2026-10-25 20:38:04,087 server INFO user_5 logged in from 10.0.0.12:33148
+2026-10-25 20:38:04,626 server INFO user_5 disconnected (10.0.0.12:33148)

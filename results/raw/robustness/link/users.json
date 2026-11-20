@@ -1,0 +1,50 @@
+{
+ "user_2": {
+  "salt": "bd245bea54896c1ac7a88064e7df5cca",
+  "hash": "053df018683be1b0933853193073b0b57714466e7f59fe8d5cdfce3989a4937a",
+  "iterations": 100000,
+  "created": 1792940885.8433762
+ },
+ "user_3": {
+  "salt": "82dbde67d57cbafd12bc1764caa5c9de",
+  "hash": "f56ab2cc96616c9b0220038d95ec37bf276c93314a743d2efd29008df5047a57",
+  "iterations": 100000,
+  "created": 1792940885.8679497
+ },
+ "vip_0": {
+  "salt": "d93b9e6d59951002685dffe40d28c434",
+  "hash": "7ebff149249088dc36f26e40ff7e1867f90290d70ac40bd10c09039ffc0d3326",
+  "iterations": 100000,
+  "created": 1792940885.955492
+ },
+ "user_6": {
+  "salt": "4434ead16e7d128e422a01f3538a09d0",
+  "hash": "6058cb5461f58d1d8d22491664e9ebe115c4f58f53f9a0bfa1fb8f5f33aa3045",
+  "iterations": 100000,
+  "created": 1792940885.957179
+ },
+ "user_4": {
+  "salt": "fb0aa11f67fe7db13f6e62ff4bfbc9db",
+  "hash": "04222a2a671bb9b63158cb9ee093d84db4757c37d94e2331c8e053c27ec5ab5a",
+  "iterations": 100000,
+  "created": 1792940885.9735436
+ },
+ "user_5": {
+  "salt": "ddc893cee60a487a28fa900a4a0cfae3",
+  "hash": "20c97c12d4e8a2ab241b580eed5eafcf7a70a42639afd0241adb819f248c2699",
+  "iterations": 100000,
+  "created": 1792940885.991896
+ },
+ "user_7": {
+  "salt": "da44c6df7f86b262aed8af37e521d123",
+  "hash": "33ab6f27b9e90408f696e1cee2d2fc8e74ccba500e4502f1a4622bf35a69b388",
+  "iterations": 100000,
+  "created": 1792940886.0067222
+ },
+ "vip_1": {
+  "salt": "350764e909711612f2744c087ae0c62a",
+  "hash": "ebc77b2681f61fea24ea1065f3d286e818b84fd1b3e93493e114d81317c62cfc",
+  "iterations": 100000,
+  "created": 1792940886.0115707
+ }
+}
