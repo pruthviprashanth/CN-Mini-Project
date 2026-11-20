@@ -1,0 +1,87 @@
+{
+ "block": {
+  "block_t": 5.001137018203735,
+  "block_reply": {
+   "ok": true,
+   "connections": 1
+  },
+  "stale_session_reaped_after_s": 21.1,
+  "relogin_while_blocked": {
+   "login": "ok",
+   "msg_immediate": "ok",
+   "msg": "failed: no reply to msg within 4.0s"
+  },
+  "relogin_after_unblock": {
+   "login": "ok",
+   "msg_immediate": "ok",
+   "msg": "ok"
+  },
+  "blocked_user_sent": 60,
+  "blocked_user_acked": 25,
+  "blocked_user_last_ack_t": 4.87,
+  "others": {
+   "users_ok": 7,
+   "users": 7,
+   "late_starts": 0,
+   "sent": 420,
+   "acked": 420,
+   "errors": 0,
+   "msgs_per_s": 35.0,
+   "rtt_mean": 1.505,
+   "rtt_p50": 1.446,
+   "rtt_p95": 2.473,
+   "rtt_p99": 2.925,
+   "rtt_max": 3.577,
+   "vip_rtt_p50": 1.516,
+   "vip_rtt_p95": 2.419,
+   "reg_rtt_p50": 1.414,
+   "reg_rtt_p95": 2.485,
+   "deliv_p50": 1.456,
+   "deliv_p95": 2.462,
+   "deliv_p99": 3.062,
+   "connect_p50": 124.509,
+   "connect_p95": 141.851,
+   "unacked": 0,
+   "delivery_loss": 0.083
+  },
+  "transitions": [
+   "user_5@10.0.0.13:43604 NORMAL -> DROP (blocked by admin)",
+   "user user_5 blocked (1 connection(s))",
+   "user_5@10.0.0.12:50274 NORMAL -> DROP (login)",
+   "user_5@10.0.0.13:43604 DROP -> NORMAL (unblocked by admin)",
+   "user_5@10.0.0.12:50274 DROP -> NORMAL (unblocked by admin)",
+   "user user_5 unblocked (2 connection(s))"
+  ],
+  "pass": true
+ },
+ "link_failure": {
+  "down_t": 4.0,
+  "up_t": 7.04,
+  "summary": {
+   "users_ok": 8,
+   "users": 8,
+   "late_starts": 0,
+   "sent": 480,
+   "acked": 480,
+   "errors": 0,
+   "msgs_per_s": 40.0,
+   "rtt_mean": 547.755,
+   "rtt_p50": 1.873,
+   "rtt_p95": 2914.143,
+   "rtt_p99": 3335.381,
+   "rtt_max": 3385.443,
+   "vip_rtt_p50": 1.907,
+   "vip_rtt_p95": 2835.626,
+   "reg_rtt_p50": 1.841,
+   "reg_rtt_p95": 2921.018,
+   "deliv_p50": 1.843,
+   "deliv_p95": 2930.072,
+   "deliv_p99": 3341.285,
+   "connect_p50": 67.139,
+   "connect_p95": 77.879,
+   "unacked": 0,
+   "delivery_loss": 0.0
+  },
+  "pass": true
+ }
+}

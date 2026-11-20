@@ -1,0 +1,4 @@
+tag,users_n,mode,monitor,bulk,duration,rate,users_ok,users,late_starts,sent,acked,errors,msgs_per_s,rtt_mean,rtt_p50,rtt_p95,rtt_p99,rtt_max,vip_rtt_p50,vip_rtt_p95,reg_rtt_p50,reg_rtt_p95,deliv_p50,deliv_p95,deliv_p99,connect_p50,connect_p95,unacked,delivery_loss,flood_msgs,flood_mbps,variant
+static,20,static,False,False,60,2.0,20,20,0,2400,2400,0,40.0,77.313,112.692,168.546,199.665,601.536,109.373,167.215,112.692,168.715,112.428,168.662,201.464,277.866,332.726,0,0.0,4985,9.305,static
+sdn-nomonitor,20,sdn,False,False,60,2.0,20,20,0,2400,2400,0,40.0,63.072,2.821,166.994,192.713,532.69,1.522,3.652,111.002,168.622,2.889,166.829,193.762,168.401,263.656,0,0.0,5036,9.401,sdn-nomonitor
+sdn-monitor,20,sdn,True,False,60,2.0,20,20,0,2400,2400,0,40.0,5.48,1.709,13.45,116.701,169.708,1.75,3.907,1.696,29.896,1.714,11.267,117.868,201.886,334.539,0,0.0,5060,9.445,sdn-monitor
