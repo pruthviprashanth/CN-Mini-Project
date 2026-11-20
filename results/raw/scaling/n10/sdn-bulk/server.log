@@ -1,0 +1,31 @@
+2026-10-25 20:26:01,184 server INFO listening on 0.0.0.0:5000 (controller events: unix:/tmp/chat_sdn_events.sock)
+2026-10-25 20:26:04,309 server INFO registered vip_0
+2026-10-25 20:26:04,361 server INFO vip_0 logged in from 10.0.0.11:57946
+2026-10-25 20:26:04,367 server INFO registered user_2
+2026-10-25 20:26:04,374 server INFO registered vip_1
+2026-10-25 20:26:04,419 server INFO user_2 logged in from 10.0.0.11:57954
+2026-10-25 20:26:04,438 server INFO vip_1 logged in from 10.0.0.11:57948
+2026-10-25 20:26:04,454 server INFO registered user_6
+2026-10-25 20:26:04,484 server INFO registered user_7
+2026-10-25 20:26:04,525 server INFO registered user_3
+2026-10-25 20:26:04,526 server INFO registered user_8
+2026-10-25 20:26:04,531 server INFO user_6 logged in from 10.0.0.13:56330
+2026-10-25 20:26:04,540 server INFO registered user_4
+2026-10-25 20:26:04,548 server INFO registered user_5
+2026-10-25 20:26:04,551 server INFO registered user_9
+2026-10-25 20:26:04,578 server INFO user_4 logged in from 10.0.0.12:53096
+2026-10-25 20:26:04,582 server INFO user_7 logged in from 10.0.0.13:56334
+2026-10-25 20:26:04,591 server INFO user_5 logged in from 10.0.0.12:53098
+2026-10-25 20:26:04,603 server INFO user_8 logged in from 10.0.0.14:33586
+2026-10-25 20:26:04,604 server INFO user_3 logged in from 10.0.0.12:53084
+2026-10-25 20:26:04,610 server INFO user_9 logged in from 10.0.0.14:33592
+2026-10-25 20:26:32,227 server INFO user_7 disconnected (10.0.0.13:56334)
+2026-10-25 20:26:32,231 server INFO user_9 disconnected (10.0.0.14:33592)
+2026-10-25 20:26:32,232 server INFO user_8 disconnected (10.0.0.14:33586)
+2026-10-25 20:26:32,232 server INFO vip_1 disconnected (10.0.0.11:57948)
+2026-10-25 20:26:32,233 server INFO user_4 disconnected (10.0.0.12:53096)
+2026-10-25 20:26:32,234 server INFO user_6 disconnected (10.0.0.13:56330)
+2026-10-25 20:26:32,236 server INFO user_5 disconnected (10.0.0.12:53098)
+2026-10-25 20:26:32,238 server INFO vip_0 disconnected (10.0.0.11:57946)
+2026-10-25 20:26:32,241 server INFO user_2 disconnected (10.0.0.11:57954)
+2026-10-25 20:26:32,251 server INFO user_3 disconnected (10.0.0.12:53084)

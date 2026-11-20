@@ -1,0 +1,76 @@
+2026-10-25 20:26:36,250 server INFO listening on 0.0.0.0:5000 (controller events: unix:/tmp/chat_sdn_events.sock)
+2026-10-25 20:26:36,512 server INFO registered vip_0
+2026-10-25 20:26:36,546 server INFO registered user_19
+2026-10-25 20:26:36,550 server INFO registered user_13
+2026-10-25 20:26:36,554 server INFO registered user_14
+2026-10-25 20:26:36,592 server INFO registered user_22
+2026-10-25 20:26:36,610 server INFO registered user_20
+2026-10-25 20:26:36,648 server INFO registered vip_1
+2026-10-25 20:26:36,680 server INFO registered user_7
+2026-10-25 20:26:36,730 server INFO registered user_21
+2026-10-25 20:26:36,737 server INFO registered user_8
+2026-10-25 20:26:36,741 server INFO registered user_16
+2026-10-25 20:26:36,745 server INFO registered user_11
+2026-10-25 20:26:36,746 server INFO registered user_9
+2026-10-25 20:26:36,748 server INFO registered user_10
+2026-10-25 20:26:36,754 server INFO registered vip_2
+2026-10-25 20:26:36,758 server INFO registered user_15
+2026-10-25 20:26:36,749 server INFO registered user_23
+2026-10-25 20:26:36,778 server INFO user_14 logged in from 10.0.0.13:33076
+2026-10-25 20:26:36,789 server INFO registered vip_3
+2026-10-25 20:26:36,791 server INFO vip_0 logged in from 10.0.0.11:48144
+2026-10-25 20:26:36,802 server INFO user_13 logged in from 10.0.0.13:33062
+2026-10-25 20:26:36,817 server INFO user_22 logged in from 10.0.0.14:49800
+2026-10-25 20:26:36,843 server INFO registered vip_4
+2026-10-25 20:26:36,852 server INFO registered user_17
+2026-10-25 20:26:36,865 server INFO user_19 logged in from 10.0.0.14:49770
+2026-10-25 20:26:36,913 server INFO user_20 logged in from 10.0.0.14:49784
+2026-10-25 20:26:36,932 server INFO vip_1 logged in from 10.0.0.11:48146
+2026-10-25 20:26:36,953 server INFO registered user_18
+2026-10-25 20:26:36,980 server INFO registered user_24
+2026-10-25 20:26:36,980 server INFO user_23 logged in from 10.0.0.14:49802
+2026-10-25 20:26:36,980 server INFO user_11 logged in from 10.0.0.12:41048
+2026-10-25 20:26:36,982 server INFO registered user_5
+2026-10-25 20:26:36,982 server INFO user_7 logged in from 10.0.0.12:41008
+2026-10-25 20:26:36,984 server INFO registered user_12
+2026-10-25 20:26:36,985 server INFO user_9 logged in from 10.0.0.12:41026
+2026-10-25 20:26:36,986 server INFO user_21 logged in from 10.0.0.14:49794
+2026-10-25 20:26:36,987 server INFO user_16 logged in from 10.0.0.13:33104
+2026-10-25 20:26:36,991 server INFO registered user_6
+2026-10-25 20:26:36,993 server INFO user_8 logged in from 10.0.0.12:41014
+2026-10-25 20:26:37,004 server INFO user_15 logged in from 10.0.0.13:33090
+2026-10-25 20:26:37,005 server INFO vip_2 logged in from 10.0.0.11:48148
+2026-10-25 20:26:37,009 server INFO user_10 logged in from 10.0.0.12:41038
+2026-10-25 20:26:37,013 server INFO vip_3 logged in from 10.0.0.11:48162
+2026-10-25 20:26:37,048 server INFO vip_4 logged in from 10.0.0.11:48164
+2026-10-25 20:26:37,056 server INFO user_17 logged in from 10.0.0.13:33120
+2026-10-25 20:26:37,081 server INFO user_12 logged in from 10.0.0.12:41054
+2026-10-25 20:26:37,088 server INFO user_18 logged in from 10.0.0.13:33124
+2026-10-25 20:26:37,093 server INFO user_5 logged in from 10.0.0.11:48176
+2026-10-25 20:26:37,094 server INFO user_24 logged in from 10.0.0.14:49816
+2026-10-25 20:26:37,100 server INFO user_6 logged in from 10.0.0.11:48188
+2026-10-25 20:27:05,789 server INFO vip_0 disconnected (10.0.0.11:48144)
+2026-10-25 20:27:05,793 server INFO user_23 disconnected (10.0.0.14:49802)
+2026-10-25 20:27:05,796 server INFO user_24 disconnected (10.0.0.14:49816)
+2026-10-25 20:27:05,797 server INFO user_19 disconnected (10.0.0.14:49770)
+2026-10-25 20:27:05,797 server INFO user_17 disconnected (10.0.0.13:33120)
+2026-10-25 20:27:05,797 server INFO user_21 disconnected (10.0.0.14:49794)
+2026-10-25 20:27:05,798 server INFO user_15 disconnected (10.0.0.13:33090)
+2026-10-25 20:27:05,798 server INFO user_20 disconnected (10.0.0.14:49784)
+2026-10-25 20:27:05,798 server INFO user_11 disconnected (10.0.0.12:41048)
+2026-10-25 20:27:05,798 server INFO user_9 disconnected (10.0.0.12:41026)
+2026-10-25 20:27:05,798 server INFO user_16 disconnected (10.0.0.13:33104)
+2026-10-25 20:27:05,793 server INFO user_13 disconnected (10.0.0.13:33062)
+2026-10-25 20:27:05,803 server INFO user_22 disconnected (10.0.0.14:49800)
+2026-10-25 20:27:05,803 server INFO user_10 disconnected (10.0.0.12:41038)
+2026-10-25 20:27:05,803 server INFO user_12 disconnected (10.0.0.12:41054)
+2026-10-25 20:27:05,804 server INFO user_18 disconnected (10.0.0.13:33124)
+2026-10-25 20:27:05,804 server INFO user_8 disconnected (10.0.0.12:41014)
+2026-10-25 20:27:05,805 server INFO user_14 disconnected (10.0.0.13:33076)
+2026-10-25 20:27:05,805 server INFO user_7 disconnected (10.0.0.12:41008)
+2026-10-25 20:27:05,808 server INFO vip_1 disconnected (10.0.0.11:48146)
+2026-10-25 20:27:05,809 server INFO vip_3 disconnected (10.0.0.11:48162)
+2026-10-25 20:27:05,809 server INFO user_5 disconnected (10.0.0.11:48176)
+2026-10-25 20:27:05,810 server INFO vip_2 disconnected (10.0.0.11:48148)
+2026-10-25 20:27:05,814 server INFO vip_4 disconnected (10.0.0.11:48164)
+2026-10-25 20:27:05,816 server INFO user_6 disconnected (10.0.0.11:48188)

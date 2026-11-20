@@ -1,0 +1,1680 @@
+{
+ "mode": "sdn",
+ "monitor": true,
+ "blocked": [],
+ "datapaths": [
+  1,
+  2
+ ],
+ "connections": [
+  {
+   "client": "10.0.0.13:47434",
+   "user": null,
+   "last_user": "user_6",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.13:47446",
+   "user": null,
+   "last_user": "user_7",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.12:56770",
+   "user": null,
+   "last_user": "user_3",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.14:40306",
+   "user": null,
+   "last_user": "user_8",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.11:35222",
+   "user": null,
+   "last_user": "vip_0",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.14:40322",
+   "user": null,
+   "last_user": "user_9",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.12:56772",
+   "user": null,
+   "last_user": "user_4",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.11:35236",
+   "user": null,
+   "last_user": "vip_1",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.12:56778",
+   "user": null,
+   "last_user": "user_5",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.11:35248",
+   "user": null,
+   "last_user": "user_2",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.11:35404",
+   "user": null,
+   "last_user": "vip_0",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.11:35410",
+   "user": null,
+   "last_user": "vip_1",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.11:35414",
+   "user": null,
+   "last_user": "user_2",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.14:36442",
+   "user": null,
+   "last_user": "user_8",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.14:36444",
+   "user": null,
+   "last_user": "user_9",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.12:35526",
+   "user": null,
+   "last_user": "user_3",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.13:54042",
+   "user": null,
+   "last_user": "user_6",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.12:35540",
+   "user": null,
+   "last_user": "user_4",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.13:54054",
+   "user": null,
+   "last_user": "user_7",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.12:35554",
+   "user": null,
+   "last_user": "user_5",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.11:55498",
+   "user": null,
+   "last_user": "vip_0",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.11:55514",
+   "user": null,
+   "last_user": "vip_1",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.11:55530",
+   "user": null,
+   "last_user": "user_2",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.14:34136",
+   "user": null,
+   "last_user": "user_8",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.14:34142",
+   "user": null,
+   "last_user": "user_9",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.12:55422",
+   "user": null,
+   "last_user": "user_3",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.12:55436",
+   "user": null,
+   "last_user": "user_4",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.12:55438",
+   "user": null,
+   "last_user": "user_5",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.13:45690",
+   "user": null,
+   "last_user": "user_6",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.13:45706",
+   "user": null,
+   "last_user": "user_7",
+   "rooms": [],
+   "class": null,
+   "queue": null,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": []
+  },
+  {
+   "client": "10.0.0.11:57946",
+   "user": null,
+   "last_user": "vip_0",
+   "rooms": [],
+   "class": "NORMAL",
+   "queue": 2,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": [
+    {
+     "dpid": 1,
+     "dir": "c2s",
+     "out_port": 6,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.11",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 57946,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 1,
+     "dir": "s2c",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.11",
+      "tcp_src": 5000,
+      "tcp_dst": 57946
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "c2s",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.11",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 57946,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.11",
+      "tcp_src": 5000,
+      "tcp_dst": 57946
+     }
+    }
+   ]
+  },
+  {
+   "client": "10.0.0.11:57948",
+   "user": null,
+   "last_user": "vip_1",
+   "rooms": [],
+   "class": "NORMAL",
+   "queue": 2,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": [
+    {
+     "dpid": 1,
+     "dir": "c2s",
+     "out_port": 6,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.11",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 57948,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 1,
+     "dir": "s2c",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.11",
+      "tcp_src": 5000,
+      "tcp_dst": 57948
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "c2s",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.11",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 57948,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.11",
+      "tcp_src": 5000,
+      "tcp_dst": 57948
+     }
+    }
+   ]
+  },
+  {
+   "client": "10.0.0.11:57954",
+   "user": null,
+   "last_user": "user_2",
+   "rooms": [],
+   "class": "NORMAL",
+   "queue": 2,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": [
+    {
+     "dpid": 1,
+     "dir": "c2s",
+     "out_port": 6,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.11",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 57954,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 1,
+     "dir": "s2c",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.11",
+      "tcp_src": 5000,
+      "tcp_dst": 57954
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "c2s",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.11",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 57954,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.11",
+      "tcp_src": 5000,
+      "tcp_dst": 57954
+     }
+    }
+   ]
+  },
+  {
+   "client": "10.0.0.13:56330",
+   "user": null,
+   "last_user": "user_6",
+   "rooms": [],
+   "class": "NORMAL",
+   "queue": 2,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": [
+    {
+     "dpid": 1,
+     "dir": "c2s",
+     "out_port": 6,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.13",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 56330,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 1,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.13",
+      "tcp_src": 5000,
+      "tcp_dst": 56330
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "c2s",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.13",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 56330,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.13",
+      "tcp_src": 5000,
+      "tcp_dst": 56330
+     }
+    }
+   ]
+  },
+  {
+   "client": "10.0.0.13:56334",
+   "user": null,
+   "last_user": "user_7",
+   "rooms": [],
+   "class": "NORMAL",
+   "queue": 2,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": [
+    {
+     "dpid": 1,
+     "dir": "c2s",
+     "out_port": 6,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.13",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 56334,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 1,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.13",
+      "tcp_src": 5000,
+      "tcp_dst": 56334
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "c2s",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.13",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 56334,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.13",
+      "tcp_src": 5000,
+      "tcp_dst": 56334
+     }
+    }
+   ]
+  },
+  {
+   "client": "10.0.0.14:33586",
+   "user": null,
+   "last_user": "user_8",
+   "rooms": [],
+   "class": "NORMAL",
+   "queue": 2,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": [
+    {
+     "dpid": 1,
+     "dir": "c2s",
+     "out_port": 6,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.14",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 33586,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 1,
+     "dir": "s2c",
+     "out_port": 4,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.14",
+      "tcp_src": 5000,
+      "tcp_dst": 33586
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "c2s",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.14",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 33586,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.14",
+      "tcp_src": 5000,
+      "tcp_dst": 33586
+     }
+    }
+   ]
+  },
+  {
+   "client": "10.0.0.12:53084",
+   "user": null,
+   "last_user": "user_3",
+   "rooms": [],
+   "class": "NORMAL",
+   "queue": 2,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": [
+    {
+     "dpid": 1,
+     "dir": "c2s",
+     "out_port": 6,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.12",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 53084,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 1,
+     "dir": "s2c",
+     "out_port": 2,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.12",
+      "tcp_src": 5000,
+      "tcp_dst": 53084
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "c2s",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.12",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 53084,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.12",
+      "tcp_src": 5000,
+      "tcp_dst": 53084
+     }
+    }
+   ]
+  },
+  {
+   "client": "10.0.0.14:33592",
+   "user": null,
+   "last_user": "user_9",
+   "rooms": [],
+   "class": "NORMAL",
+   "queue": 2,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": [
+    {
+     "dpid": 1,
+     "dir": "c2s",
+     "out_port": 6,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.14",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 33592,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 1,
+     "dir": "s2c",
+     "out_port": 4,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.14",
+      "tcp_src": 5000,
+      "tcp_dst": 33592
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "c2s",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.14",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 33592,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.14",
+      "tcp_src": 5000,
+      "tcp_dst": 33592
+     }
+    }
+   ]
+  },
+  {
+   "client": "10.0.0.12:53096",
+   "user": null,
+   "last_user": "user_4",
+   "rooms": [],
+   "class": "NORMAL",
+   "queue": 2,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": [
+    {
+     "dpid": 1,
+     "dir": "c2s",
+     "out_port": 6,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.12",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 53096,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 1,
+     "dir": "s2c",
+     "out_port": 2,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.12",
+      "tcp_src": 5000,
+      "tcp_dst": 53096
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "c2s",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.12",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 53096,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.12",
+      "tcp_src": 5000,
+      "tcp_dst": 53096
+     }
+    }
+   ]
+  },
+  {
+   "client": "10.0.0.12:53098",
+   "user": null,
+   "last_user": "user_5",
+   "rooms": [],
+   "class": "NORMAL",
+   "queue": 2,
+   "override": null,
+   "rate_c2s_bps": 0,
+   "rate_s2c_bps": 0,
+   "closed": true,
+   "flows": [
+    {
+     "dpid": 1,
+     "dir": "c2s",
+     "out_port": 6,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.12",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 53098,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 1,
+     "dir": "s2c",
+     "out_port": 2,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.12",
+      "tcp_src": 5000,
+      "tcp_dst": 53098
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "c2s",
+     "out_port": 1,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.12",
+      "ipv4_dst": "10.0.0.1",
+      "tcp_src": 53098,
+      "tcp_dst": 5000
+     }
+    },
+    {
+     "dpid": 2,
+     "dir": "s2c",
+     "out_port": 3,
+     "match": {
+      "eth_type": 2048,
+      "ip_proto": 6,
+      "ipv4_src": "10.0.0.1",
+      "ipv4_dst": "10.0.0.12",
+      "tcp_src": 5000,
+      "tcp_dst": 53098
+     }
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "flow_mods": 1259,
+  "packet_in": 412,
+  "events": 240
+ },
+ "history": [
+  {
+   "ts": 1792940164.5355053,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_6@10.0.0.13:56330",
+   "room": "general"
+  },
+  {
+   "ts": 1792940164.5360086,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_6@10.0.0.13:56330",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940164.5833445,
+   "kind": "event",
+   "event": "login",
+   "conn": "user_4@10.0.0.12:53096",
+   "room": null
+  },
+  {
+   "ts": 1792940164.5841072,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_4@10.0.0.12:53096",
+   "room": "general"
+  },
+  {
+   "ts": 1792940164.5845547,
+   "kind": "event",
+   "event": "login",
+   "conn": "user_7@10.0.0.13:56334",
+   "room": null
+  },
+  {
+   "ts": 1792940164.5849853,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_7@10.0.0.13:56334",
+   "room": "general"
+  },
+  {
+   "ts": 1792940164.585414,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_4@10.0.0.12:53096",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940164.5878584,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_7@10.0.0.13:56334",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940164.59255,
+   "kind": "event",
+   "event": "login",
+   "conn": "user_5@10.0.0.12:53098",
+   "room": null
+  },
+  {
+   "ts": 1792940164.5931823,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_5@10.0.0.12:53098",
+   "room": "general"
+  },
+  {
+   "ts": 1792940164.5955245,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_5@10.0.0.12:53098",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940164.6051977,
+   "kind": "event",
+   "event": "login",
+   "conn": "user_8@10.0.0.14:33586",
+   "room": null
+  },
+  {
+   "ts": 1792940164.6058996,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_8@10.0.0.14:33586",
+   "room": "general"
+  },
+  {
+   "ts": 1792940164.6063447,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_8@10.0.0.14:33586",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940164.6073143,
+   "kind": "event",
+   "event": "login",
+   "conn": "user_3@10.0.0.12:53084",
+   "room": null
+  },
+  {
+   "ts": 1792940164.6078997,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_3@10.0.0.12:53084",
+   "room": "general"
+  },
+  {
+   "ts": 1792940164.6083553,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_3@10.0.0.12:53084",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940164.6116893,
+   "kind": "event",
+   "event": "login",
+   "conn": "user_9@10.0.0.14:33592",
+   "room": null
+  },
+  {
+   "ts": 1792940164.612289,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_9@10.0.0.14:33592",
+   "room": "general"
+  },
+  {
+   "ts": 1792940164.6127207,
+   "kind": "event",
+   "event": "join",
+   "conn": "user_9@10.0.0.14:33592",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940192.2369134,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_7@10.0.0.13:56334",
+   "room": "general"
+  },
+  {
+   "ts": 1792940192.2375178,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_7@10.0.0.13:56334",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940192.2424061,
+   "kind": "event",
+   "event": "logout",
+   "conn": "user_7@10.0.0.13:56334",
+   "room": null
+  },
+  {
+   "ts": 1792940192.2429338,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_9@10.0.0.14:33592",
+   "room": "general"
+  },
+  {
+   "ts": 1792940192.2433777,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_9@10.0.0.14:33592",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940192.2439785,
+   "kind": "event",
+   "event": "logout",
+   "conn": "user_9@10.0.0.14:33592",
+   "room": null
+  },
+  {
+   "ts": 1792940192.2444355,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_8@10.0.0.14:33586",
+   "room": "general"
+  },
+  {
+   "ts": 1792940192.2448883,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_8@10.0.0.14:33586",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940192.245346,
+   "kind": "event",
+   "event": "logout",
+   "conn": "user_8@10.0.0.14:33586",
+   "room": null
+  },
+  {
+   "ts": 1792940192.2469337,
+   "kind": "event",
+   "event": "leave",
+   "conn": "vip_1@10.0.0.11:57948",
+   "room": "general"
+  },
+  {
+   "ts": 1792940192.247375,
+   "kind": "event",
+   "event": "leave",
+   "conn": "vip_1@10.0.0.11:57948",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940192.24802,
+   "kind": "event",
+   "event": "logout",
+   "conn": "vip_1@10.0.0.11:57948",
+   "room": null
+  },
+  {
+   "ts": 1792940192.2485986,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_4@10.0.0.12:53096",
+   "room": "general"
+  },
+  {
+   "ts": 1792940192.250387,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_4@10.0.0.12:53096",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940192.2513144,
+   "kind": "event",
+   "event": "logout",
+   "conn": "user_4@10.0.0.12:53096",
+   "room": null
+  },
+  {
+   "ts": 1792940192.2517898,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_6@10.0.0.13:56330",
+   "room": "general"
+  },
+  {
+   "ts": 1792940192.2523074,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_6@10.0.0.13:56330",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940192.2654905,
+   "kind": "event",
+   "event": "logout",
+   "conn": "user_6@10.0.0.13:56330",
+   "room": null
+  },
+  {
+   "ts": 1792940192.268542,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_5@10.0.0.12:53098",
+   "room": "general"
+  },
+  {
+   "ts": 1792940192.2690573,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_5@10.0.0.12:53098",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940192.2730865,
+   "kind": "event",
+   "event": "logout",
+   "conn": "user_5@10.0.0.12:53098",
+   "room": null
+  },
+  {
+   "ts": 1792940192.27383,
+   "kind": "event",
+   "event": "leave",
+   "conn": "vip_0@10.0.0.11:57946",
+   "room": "general"
+  },
+  {
+   "ts": 1792940192.2744477,
+   "kind": "event",
+   "event": "leave",
+   "conn": "vip_0@10.0.0.11:57946",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940192.2760682,
+   "kind": "event",
+   "event": "logout",
+   "conn": "vip_0@10.0.0.11:57946",
+   "room": null
+  },
+  {
+   "ts": 1792940192.2766016,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_2@10.0.0.11:57954",
+   "room": "general"
+  },
+  {
+   "ts": 1792940192.2813458,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_2@10.0.0.11:57954",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940192.2819846,
+   "kind": "event",
+   "event": "logout",
+   "conn": "user_2@10.0.0.11:57954",
+   "room": null
+  },
+  {
+   "ts": 1792940192.2824788,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_3@10.0.0.12:53084",
+   "room": "general"
+  },
+  {
+   "ts": 1792940192.2835624,
+   "kind": "event",
+   "event": "leave",
+   "conn": "user_3@10.0.0.12:53084",
+   "room": "load_0"
+  },
+  {
+   "ts": 1792940192.2841058,
+   "kind": "event",
+   "event": "logout",
+   "conn": "user_3@10.0.0.12:53084",
+   "room": null
+  }
+ ],
+ "transitions": [
+  {
+   "ts": 1792940069.394381,
+   "kind": "mode",
+   "text": "mode=static monitor=False (all flows flushed)"
+  },
+  {
+   "ts": 1792940070.541917,
+   "kind": "new",
+   "text": "?@10.0.0.13:47434 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940070.5547092,
+   "kind": "new",
+   "text": "?@10.0.0.13:47446 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940070.6557033,
+   "kind": "new",
+   "text": "?@10.0.0.12:56770 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940070.6595767,
+   "kind": "new",
+   "text": "?@10.0.0.14:40306 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940070.6600602,
+   "kind": "new",
+   "text": "?@10.0.0.11:35222 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940070.6659641,
+   "kind": "new",
+   "text": "?@10.0.0.14:40322 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940070.6662533,
+   "kind": "new",
+   "text": "?@10.0.0.12:56772 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940070.6730654,
+   "kind": "new",
+   "text": "?@10.0.0.11:35236 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940070.6925805,
+   "kind": "new",
+   "text": "?@10.0.0.12:56778 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940070.6952822,
+   "kind": "new",
+   "text": "?@10.0.0.11:35248 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940098.5895674,
+   "kind": "mode",
+   "text": "mode=static monitor=False (all flows flushed)"
+  },
+  {
+   "ts": 1792940102.7416482,
+   "kind": "new",
+   "text": "?@10.0.0.11:35404 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940102.7519035,
+   "kind": "new",
+   "text": "?@10.0.0.11:35410 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940102.7659712,
+   "kind": "new",
+   "text": "?@10.0.0.11:35414 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940102.7821932,
+   "kind": "new",
+   "text": "?@10.0.0.14:36442 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940102.795419,
+   "kind": "new",
+   "text": "?@10.0.0.14:36444 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940102.8000455,
+   "kind": "new",
+   "text": "?@10.0.0.12:35526 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940102.8051157,
+   "kind": "new",
+   "text": "?@10.0.0.13:54042 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940102.80687,
+   "kind": "new",
+   "text": "?@10.0.0.12:35540 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940102.8156152,
+   "kind": "new",
+   "text": "?@10.0.0.13:54054 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940102.8203213,
+   "kind": "new",
+   "text": "?@10.0.0.12:35554 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940130.787104,
+   "kind": "mode",
+   "text": "mode=sdn monitor=True (all flows flushed)"
+  },
+  {
+   "ts": 1792940132.054388,
+   "kind": "new",
+   "text": "?@10.0.0.11:55498 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940132.0643387,
+   "kind": "new",
+   "text": "?@10.0.0.11:55514 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940132.0817072,
+   "kind": "new",
+   "text": "?@10.0.0.11:55530 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940132.1150348,
+   "kind": "class",
+   "text": "vip_0@10.0.0.11:55498 NORMAL -> HIGH (login)"
+  },
+  {
+   "ts": 1792940132.1443205,
+   "kind": "new",
+   "text": "?@10.0.0.14:34136 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940132.1544702,
+   "kind": "new",
+   "text": "?@10.0.0.14:34142 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940132.1743977,
+   "kind": "new",
+   "text": "?@10.0.0.12:55422 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940132.182888,
+   "kind": "new",
+   "text": "?@10.0.0.12:55436 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940132.2010756,
+   "kind": "new",
+   "text": "?@10.0.0.12:55438 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940132.2143452,
+   "kind": "new",
+   "text": "?@10.0.0.13:45690 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940132.2221582,
+   "kind": "new",
+   "text": "?@10.0.0.13:45706 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940132.3105636,
+   "kind": "class",
+   "text": "vip_1@10.0.0.11:55514 NORMAL -> HIGH (login)"
+  },
+  {
+   "ts": 1792940160.0310555,
+   "kind": "class",
+   "text": "vip_1@10.0.0.11:55514 HIGH -> NORMAL (logout)"
+  },
+  {
+   "ts": 1792940160.0729613,
+   "kind": "class",
+   "text": "vip_0@10.0.0.11:55498 HIGH -> NORMAL (logout)"
+  },
+  {
+   "ts": 1792940160.1161382,
+   "kind": "mode",
+   "text": "mode=sdn monitor=True (all flows flushed)"
+  },
+  {
+   "ts": 1792940164.2726994,
+   "kind": "new",
+   "text": "?@10.0.0.11:57946 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940164.2812703,
+   "kind": "new",
+   "text": "?@10.0.0.11:57948 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940164.2962081,
+   "kind": "new",
+   "text": "?@10.0.0.11:57954 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940164.3631911,
+   "kind": "class",
+   "text": "vip_0@10.0.0.11:57946 NORMAL -> HIGH (login)"
+  },
+  {
+   "ts": 1792940164.3918948,
+   "kind": "new",
+   "text": "?@10.0.0.13:56330 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940164.4168146,
+   "kind": "new",
+   "text": "?@10.0.0.13:56334 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940164.4291303,
+   "kind": "new",
+   "text": "?@10.0.0.14:33586 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940164.433079,
+   "kind": "new",
+   "text": "?@10.0.0.12:53084 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940164.4399858,
+   "kind": "new",
+   "text": "?@10.0.0.14:33592 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940164.440455,
+   "kind": "class",
+   "text": "vip_1@10.0.0.11:57948 NORMAL -> HIGH (login)"
+  },
+  {
+   "ts": 1792940164.4471588,
+   "kind": "new",
+   "text": "?@10.0.0.12:53096 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940164.459667,
+   "kind": "new",
+   "text": "?@10.0.0.12:53098 connection classified NORMAL"
+  },
+  {
+   "ts": 1792940192.2481382,
+   "kind": "class",
+   "text": "vip_1@10.0.0.11:57948 HIGH -> NORMAL (logout)"
+  },
+  {
+   "ts": 1792940192.2761703,
+   "kind": "class",
+   "text": "vip_0@10.0.0.11:57946 HIGH -> NORMAL (logout)"
+  }
+ ]
+}
